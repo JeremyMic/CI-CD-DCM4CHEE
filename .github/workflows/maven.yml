@@ -24,15 +24,14 @@ jobs:
       - name: Build DCM4CHE
         run: |
           cd dcm4che-master/
-          ./mvnw install
+          mvn install
 
       - name: Build DCM4CHE Arc Lang
         run: |
           cd dcm4chee-arc-lang-master/
-          ./mvnw install
+          mvn install
 
       - name: Build DCM4CHE Arc UI 2
         run: |
           cd dcm4chee-arc-light-master/dcm4chee-arc-ui2
-          mvn clean
-          mvn install
+          mvn clean install
