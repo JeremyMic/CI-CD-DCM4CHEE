@@ -23,6 +23,10 @@ jobs:
 
       - name: Build with Maven
         run: |
+          cd dcm4che-master
+          ./mvnw install
+          cd dcm4chee-arc-lang-master
+          ./mvnw install
           cd dcm4chee-arc-light-master/dcm4chee-arc-ui2
           mvn clean
           mvn install
