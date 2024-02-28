@@ -35,3 +35,9 @@ jobs:
         run: |
           cd dcm4chee-arc-light-master/dcm4chee-arc-ui2
           mvn clean install
+
+      - name: Upload WAR file
+        uses: actions/upload-artifact@v3
+        with:
+          name: dcm4chee-arc-ui2-war
+          path: dcm4chee-arc-light-master/dcm4chee-arc-ui2/target/*.war
