@@ -769,17 +769,6 @@ p-calendar{
       background-image: url("assets/img/recreate_record_white.png");
     }
   }
-  &.person_check{
-    background-image: url("assets/img/person_check_black.png");
-    background-repeat:no-repeat;
-    height:100%;
-    width:25px;
-    background-position: center center;
-    float: left;
-    &:hover{
-      background-image: url("assets/img/person_check_white.png");
-    }
-  }
   &.unmerge_black{
     background-image: url("assets/img/unmerge_black.png");
     background-repeat:no-repeat;
@@ -4083,9 +4072,10 @@ $backgroundHoverColor:rgba(6, 29, 47, 0.84);
     float: left;
     width: 100%;
     margin-bottom: 2px;
-    -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-    -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-    box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+    box-shadow: none;
+    // -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+    // -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+    // box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
     /*   & > .filter_block{
          flex-grow: 0;
        }
@@ -4465,13 +4455,20 @@ $backgroundHoverColorWhite:rgba(255, 255, 255, 0.80);
   .tab-content{
     color: black;
     fill: #5b5b5b;
-    background: $backgroundColorWhiteKalbe;
+    background: backgroundColorWhiteKalbe;
     .long_loader{
       background: $pink;
     }
     .charts,h2, h3, h4, .main_sub_content{
       background: $backgroundColorWhiteKalbe;
     }
+    h2{
+      border-radius: 5px 5px 0 0;
+      -webkit-border-radius: 5px 5px 0 0;
+      -moz-border-radius: 5px 5px 0 0;
+      -ms-border-radius: 5px 5px 0 0;
+      -o-border-radius: 5px 5px 0 0;
+}
     .charts, .main_sub_content{
       .download_csv{
         background: rgba(28, 36, 43, 0.92);
@@ -4608,6 +4605,14 @@ $backgroundHoverColorWhite:rgba(255, 255, 255, 0.80);
   }
   .filter_line{
     background:$backgroundColorWhite;
+
+    &:last-child(){
+      border-radius: 0 0 5px 5px;
+      -webkit-border-radius: 0 0 5px 5px;
+      -moz-border-radius: 0 0 5px 5px;
+      -ms-border-radius: 0 0 5px 5px;
+      -o-border-radius: 0 0 5px 5px;
+}
   }
   .dynamic_table{
     .table_header {
