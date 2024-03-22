@@ -3836,9 +3836,9 @@ $backgroundHoverColor:rgba(6, 29, 47, 0.84);
       background: transparent;
       margin-bottom:5px;
       margin-right: 4px;
-      -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-      -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-      box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
       & > a{
         border-radius: 0;
         border: 0;
@@ -3888,9 +3888,9 @@ $backgroundHoverColor:rgba(6, 29, 47, 0.84);
       width: 100%;
       float: left;
       padding: 30px 20px;
-      -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-      -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-      box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
     }
     .main_sub_content{
       margin-bottom: 10px;
@@ -3925,7 +3925,7 @@ $backgroundHoverColor:rgba(6, 29, 47, 0.84);
         margin-top: 0;
       }
       padding: 2px 9px;
-      margin-bottom: 5px;
+      margin-bottom: 0px;
     }
     h4{
       float: left;
@@ -4418,6 +4418,7 @@ $backgroundHoverColor:rgba(6, 29, 47, 0.84);
 /*White design color START*/
 $pink:rgba(82, 36, 88, 0.85);
 $backgroundColorWhite:rgba(255, 255, 255, 0.65);
+$backgroundColorWhiteKalbe: rgba(255, 255, 255);
 $backgroundHoverColorWhite:rgba(255, 255, 255, 0.80);
 .white_design{
   background: transparent !important;
@@ -4464,12 +4465,12 @@ $backgroundHoverColorWhite:rgba(255, 255, 255, 0.80);
   .tab-content{
     color: black;
     fill: #5b5b5b;
-    background: transparent;
+    background: $backgroundColorWhiteKalbe;
     .long_loader{
       background: $pink;
     }
     .charts,h2, h3, h4, .main_sub_content{
-      background: $backgroundColorWhite;
+      background: $backgroundColorWhiteKalbe;
     }
     .charts, .main_sub_content{
       .download_csv{
