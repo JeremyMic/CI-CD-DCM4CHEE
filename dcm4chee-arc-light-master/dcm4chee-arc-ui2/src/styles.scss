@@ -3571,9 +3571,9 @@ mat-dialog-container, mat-mdc-dialog-container{
 .dropdownSearch{
   position: absolute;
   height: 28px;
-  -webkit-box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.45);
-  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.45);
+  // -webkit-box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.45);
+  // -moz-box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.45);
+  // box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.45);
   width: 60%;
   border: none;
   top: -31px;
@@ -3587,9 +3587,9 @@ mat-dialog-container, mat-mdc-dialog-container{
   padding: 45px 30px 20px 30px;
   margin: 27px 4px;
   background: rgba(255, 255, 255, 0.85) none repeat scroll 0 0;
-  -moz-box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
-  -webkit-box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
-  box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
+  // -moz-box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
+  // -webkit-box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
+  // box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
 }
 .filter{
   .btn-default.submit{
@@ -4071,11 +4071,10 @@ $backgroundHoverColor:rgba(6, 29, 47, 0.84);
   .filter_line{
     float: left;
     width: 100%;
-    margin-bottom: 2px;
+    margin-bottom: 2px;;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
-    // -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-    // -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-    // box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
     /*   & > .filter_block{
          flex-grow: 0;
        }
@@ -4736,9 +4735,9 @@ $backgroundHoverColorWhite:rgba(255, 255, 255, 0.80);
   &.studies-stored.statistics{
     filter-generator{
       background:rgba(255, 255, 255, 0.75);
-      -webkit-box-shadow:   5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-      -moz-box-shadow:  5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-      box-shadow:  5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // -webkit-box-shadow:   5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // -moz-box-shadow:  5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+      // box-shadow:  5px 3px 13px 0px rgba(68, 68, 68, 0.93);
       color:rgba(28, 36, 43, 0.92);
     }
     .chart-legend .legend-label, text{
