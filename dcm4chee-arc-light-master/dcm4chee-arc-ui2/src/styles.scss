@@ -1042,10 +1042,15 @@ mat-grid-list{
         height: auto;
       }
       & > input,p-calendar input, modality input,range-picker input{
-        border:none;
-        border-bottom:1px solid #cccccc;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        //border-bottom:1px solid #cccccc;
         background:transparent;
-      }
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
       button{
         border:none;
       }
