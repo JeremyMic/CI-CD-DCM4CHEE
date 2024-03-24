@@ -1,4 +1,5 @@
 $backgroundColor:rgba(6, 29, 47, 0.84);
+$greenKalbe: #00AF7B;
 .range_picker{
   position: relative;
   height: 30px;
@@ -28,7 +29,7 @@ $backgroundColor:rgba(6, 29, 47, 0.84);
       vertical-align: middle;
       line-height: 26px;
       top: 0;
-      background: $backgroundColor;
+      background: $greenKalbe;
       &:hover{
         cursor: pointer;
       }

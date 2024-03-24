@@ -35,10 +35,12 @@
     .selected_value{
       max-height: 30px;
       overflow: hidden;
+      border-bottom: 1px solid #cccccc;
     }
     .selected_value.empty_field{
       font-style: italic;
       color: #444444;
+      border-bottom: 1px solid #cccccc;
     }
     .selected_value:hover, .selected_value *:hover{
       cursor: pointer;

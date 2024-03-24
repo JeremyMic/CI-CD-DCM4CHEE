@@ -5,7 +5,6 @@
     display: grid;
     grid-template-columns: auto 26px;
     width: 100%;
-    border-bottom: 1px solid #ccc;
     input {
       border: 1px solid #ccc;
       border-radius: 5px;
@@ -21,6 +20,11 @@
       justify-content: center;
       align-items: center;
       background: #00af7b;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
       color: white;
       &:hover {
         cursor: pointer;

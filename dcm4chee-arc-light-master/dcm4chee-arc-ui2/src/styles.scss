@@ -622,10 +622,10 @@ p-calendar{
   }
 }
 .clock{
-  background: rgba(6, 29, 47, 0.88);
-  -moz-box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
-  -webkit-box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
-  box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
+  background: $greenKalbe;
+  // -moz-box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
+  // -webkit-box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
+  // box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.37);
   color: white;
   display: block;
   font-weight: bold;
@@ -1712,7 +1712,7 @@ mat-form-field, mat-mdc-form-field{
     .mat-icon{
       height: 40px;
       .glyphicon.glyphicon-calendar{
-        background: rgba(28, 36, 43, 0.92);
+        background: $greenKalbe;
         color: white;
         height: 25px;
         line-height: 25px;
@@ -4544,9 +4544,14 @@ $backgroundHoverColorWhite:rgba(255, 255, 255, 0.80);
       dcm-drop-down{
         .dcm_dropdown{
           .dropdown_input .input_part .edited_input_value{
-            border:none !important;
+            border: 1px solid #ccc;
             background: transparent;
-          }
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+}
         }
       }
     }
@@ -4558,31 +4563,31 @@ $backgroundHoverColorWhite:rgba(255, 255, 255, 0.80);
       }
     }
     .btn-default.submit{
-      background: rgba(28, 36, 43, 0.92);
+      background: $greenKalbe;
       color: rgba(255, 255, 255, 0.90);
       &:hover{
-        background: rgb(22, 29, 35);
+        background: $greenKalbe;
         color:white;
       }
     }
     .range_picker  .main_input_block  .glyphicon-calendar {
-      background: rgba(28, 36, 43, 0.92) !important;
+      background: $greenKalbe !important;
       color: rgba(255, 255, 255, 0.9) !important;
       &:hover{
-        background: rgb(22, 29, 35) !important;
+        background: $greenKalbe !important;
         color:white !important;
       }
     }
     .checkbox_button{
-      background: rgba(28, 36, 43, 0.92);
+      background: $greenKalbe;
       color: rgba(255, 255, 255, 0.90);
       &:hover{
-        background: rgb(22, 29, 35);
+        background: $greenKalbe;
         color:white;
       }
     }
     .csv_button{
-      background: rgba(28, 36, 43, 0.92);
+      background: $greenKalbe;
       color: rgba(255, 255, 255, 0.90);
       .custom_icon{
         &.csv_icon{
