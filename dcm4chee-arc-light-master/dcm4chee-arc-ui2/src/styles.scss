@@ -4893,10 +4893,10 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
     background-color: $backgroundColorWhite;
   }
   .more {
-    background: rgba(28, 36, 43, 0.92);
+    background: $greenKalbe;
     color: rgba(255, 255, 255, 0.9);
     &:hover {
-      background: rgb(22, 29, 35);
+      background: $greenKalbe;
       color: white;
     }
     &.functions {
