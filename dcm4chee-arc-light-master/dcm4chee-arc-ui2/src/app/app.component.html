@@ -71,10 +71,10 @@
 <ul id="mainmenu" class="nav slideInLeft animated" *ngIf="showMenu" (clickOutside)="closeFromOutside()" [clickOutsideExceptionClass]="'menu_button'">
     <div (click)="showMenu = false;" class="glyphicon glyphicon-align-justify toggle-button "></div>
     <!--<li (click)="showMenu = false;"><a routerLink="queues" routerLinkActive="active">Queues</a></li>-->
-    <li (click)="showMenu = false;" [permission]="{id:'menu-monitoring',param:'visible'}"><a routerLink="monitoring/associations" routerLinkActive="active" i18n="@@menu.monitoring">Monitoring</a></li>
-    <li (click)="showMenu = false;" [permission]="{id:'menu-study',param:'visible'}"><a routerLink="study/study" routerLinkActive="active" i18n="@@menu.navigation">Navigation</a></li>
+    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-monitoring',param:'visible'}"><img src="../assets/icon/monitor.svg" alt=""><a routerLink="monitoring/associations" routerLinkActive="active" i18n="@@menu.monitoring">Monitoring</a></li>
+    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-study',param:'visible'}"><img src="../assets/icon/navigation.svg" alt=""><a routerLink="study/study" routerLinkActive="active" i18n="@@menu.navigation">Navigation</a></li>
     <!--<li (click)="showMenu = false;" *ngIf="isRole('admin')"><a routerLink="control" routerLinkActive="active">Control</a></li>-->
-    <li (click)="showMenu = false;" [permission]="{id:'menu-configuration',param:'visible'}"><a routerLink="device/devicelist" routerLinkActive="active" i18n="@@menu.configuration">Configuration</a></li>
+    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-configuration',param:'visible'}"><img src="../assets/icon/settings.svg" alt=""><a routerLink="device/devicelist" routerLinkActive="active" i18n="@@menu.configuration">Configuration</a></li>
 </ul>
 <!--<img src="assets/img/logo.png" class="logo" i18n-title="@@about" title="About" (click)="productLabelling()" >-->
 <div class="logo" i18n-title="@@about" title="About" (click)="productLabelling()"></div>

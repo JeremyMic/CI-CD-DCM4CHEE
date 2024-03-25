@@ -1,5 +1,5 @@
 $hoverColor:#9fa4a9;
-$pink:rgba(82, 36, 88, 0.85);
+$pink:#00AF7B;
 
 .j4care_dynamic_table{
   float: left;
@@ -8,11 +8,8 @@ $pink:rgba(82, 36, 88, 0.85);
   .th{
     width: 100%;
     float: left;
-    background: rgba(28, 36, 43, 0.92);
+    background: #00AF7B ;
     color:white;
-    -webkit-box-shadow:    5px 3px 13px 0px rgba(68, 68, 68, 0.93) ;
-    -moz-box-shadow:    5px 3px 13px 0px rgba(68, 68, 68, 0.93) ;
-    box-shadow:    5px 3px 13px 0px rgba(68, 68, 68, 0.93) ;
     margin-bottom: 1px;
     &.studies, &.uwl, &.mpps{
       padding-left: 13px;
@@ -79,8 +76,8 @@ $pink:rgba(82, 36, 88, 0.85);
         }
       }
       &.active, &.value:hover, &.pipe:hover{
-        background: $pink;
-        color: white;
+        background: white;
+        color: #00AF7B ;
       }
 
       .actions_menu{
@@ -89,9 +86,6 @@ $pink:rgba(82, 36, 88, 0.85);
         max-width: 90px;
         z-index: 9999;
         position: fixed;
-        -webkit-box-shadow: 2px 2px 2px #444;
-        -moz-box-shadow: 2px 2px 2px #444;
-        box-shadow: 2px 2px 2px #444;
         margin-top: 40px;
         ul{
           list-style: none;
@@ -141,10 +135,9 @@ $pink:rgba(82, 36, 88, 0.85);
           left: 0;
           top: 0;
           display: block;
-          background: #6b4470;
+          background: #00AF7B ;
           padding: 5px 7px;
           color:white;
-          box-shadow: 0px 0px 7px 2px #000000c9;
         }
       }
     }
@@ -157,19 +150,13 @@ $pink:rgba(82, 36, 88, 0.85);
     border-bottom: 1px solid rgba(0, 0, 0, 0.46);
     margin-bottom: 1px;
     &.patient_block{
-      -webkit-box-shadow:  4px 3px 6px rgba(68, 68, 68, 0.57);
-      -moz-box-shadow:  4px 3px 6px rgba(68, 68, 68, 0.57);
-      box-shadow:  4px 3px 6px rgba(68, 68, 68, 0.57);
       z-index: 4;
       position: relative;
       &.selected{
-        background:rgba(67, 139, 173, 0.88);
+        background:#00AF7B;
       }
     }
     &.study_block, &.mwl_block, &.diff_block{
-      -webkit-box-shadow:   2px 3px 10px 0px rgba(68, 68, 68, 0.7);
-      -moz-box-shadow:   2px 3px 10px 0px rgba(68, 68, 68, 0.7);
-      box-shadow:   2px 3px 10px 0px rgba(68, 68, 68, 0.7);
       margin-left: 2px;
       width: calc(100% - 2px);
       background: rgba(235, 235, 235, 0.9);
@@ -177,39 +164,33 @@ $pink:rgba(82, 36, 88, 0.85);
       position: relative;
       z-index: 3;
       &.selected{
-        background:rgba(67, 139, 173, 0.78);
+        background:#00AF7B;
       }
     }
     &.diff_block{
       padding-left: 42px;
     }
     &.series_block{
-      -webkit-box-shadow:  1px 1px 8px 0px rgba(68, 68, 68, 0.7);
-      -moz-box-shadow:  1px 1px 8px 0px rgba(68, 68, 68, 0.7);
-      box-shadow:  1px 1px 8px 0px rgba(68, 68, 68, 0.7);
       margin-left: 4px;
       width: calc(100% - 4px);
-      background: rgba(215, 215, 215, 0.8);
+      background: #00AF7B;
       padding-left: 30px;
       position: relative;
       z-index: 2;
       &.selected{
-        background:rgba(67, 139, 173, 0.68);
+        background:#00AF7B;
       }
 
     }
     &.instance_block{
-      -webkit-box-shadow:  1px 0px 8px 0px rgba(68, 68, 68, 0.7);
-      -moz-box-shadow:  1px 0px 8px 0px rgba(68, 68, 68, 0.7);
-      box-shadow:  1px 0px 8px 0px rgba(68, 68, 68, 0.7);
       margin-left: 6px;
       width: calc(100% - 6px);
-      background: rgba(195, 195, 195, 0.7);
+      background: #00AF7B;
       padding-left: 45px;
       position: relative;
       z-index: 1;
       &.selected{
-        background:rgba(67, 139, 173, 0.58);
+        background:#00AF7B;
       }
 
     }
@@ -220,14 +201,14 @@ $pink:rgba(82, 36, 88, 0.85);
     .centered_child{
       display: inline-block;
       button{
-        color: rgba(28, 36, 43, 0.85);
+        color: #00AF7B;
         &:hover{
-          color:#1c242b;
+          color: #00AF7B;
           cursor: pointer;
         }
       }
       button[disabled], button[disabled]:hover{
-        color: rgba(28, 36, 43, 0.6);
+        color: #00AF7B;
       }
     }
   }

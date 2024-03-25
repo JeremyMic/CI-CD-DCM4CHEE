@@ -4,7 +4,8 @@
   width: 100%;
   .dropdown_input{
     min-width: 100px;
-    border-bottom: 1px solid #cccccc;
+    border: 1px solid #cccccc;
+    // border-bottom: 1px solid #cccccc;
     height: 30px;
     line-height: 30px;
     padding-left: 7px;
@@ -35,12 +36,14 @@
     .selected_value{
       max-height: 30px;
       overflow: hidden;
-      border-bottom: 1px solid #cccccc;
+      border: 1px solid #cccccc;
+      // border-bottom: 1px solid #cccccc;
     }
     .selected_value.empty_field{
       font-style: italic;
       color: #444444;
-      border-bottom: 1px solid #cccccc;
+      border: 1px solid #cccccc;
+      // border-bottom: 1px solid #cccccc;
     }
     .selected_value:hover, .selected_value *:hover{
       cursor: pointer;
@@ -95,7 +98,8 @@
       }
       li.option{
         //padding-left:15px;
-        border-bottom: 1px solid #ccc;
+        border: 1px solid #cccccc;
+        // border-bottom: 1px solid #ccc;
         display: flex;
       }
       .option:hover {
@@ -123,7 +127,8 @@
     height: 30px;
     float: left;
     //margin-left: 1%;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #cccccc;
+    // border-bottom: 1px solid #ccc;
     margin-top: 2px;
     input[type=text]{
       width: calc(100% - 32px);

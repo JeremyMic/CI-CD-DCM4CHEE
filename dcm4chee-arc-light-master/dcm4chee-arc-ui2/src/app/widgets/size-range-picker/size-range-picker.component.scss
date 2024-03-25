@@ -47,7 +47,8 @@ $backgroundColorHover:rgba(28, 36, 43, 1);
       border: none
     }
     .min,.max, mat-select{
-      border-bottom: 1px solid #cccccc;
+      border: 1px solid #cccccc;
+      // border-bottom: 1px solid #cccccc;
     }
     .min,.max{
       width:calc(50% - 12px);

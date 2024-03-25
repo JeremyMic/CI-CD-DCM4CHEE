@@ -41,7 +41,7 @@
       }
       i.material-icons{
         float: right;
-        background: rgb(6 29 47 / 84%);
+        background: #00AF7B;
         color: white;
         cursor: pointer;
         width:24px;
@@ -64,7 +64,7 @@
         }
         i.material-icons{
           float: right;
-          background: rgb(6 29 47 / 84%);
+          background: #00AF7B;
           color: white;
           cursor: pointer;
           width:24px;
@@ -84,7 +84,7 @@
       width: 100%;
       margin: 0;
       li{
-        color: rgba(0, 0, 0, 0.61);
+        color: #00AF7B;
         background: rgba(255, 255, 255, 0.64);
         padding: 0 5px;
         border:1px solid #cccccc;
@@ -115,7 +115,7 @@
       margin: 0;
       //background: white;
       background: rgba(255, 255, 255, 0.85);
-      color: rgba(0, 0, 0, 0.61);
+      color: #00AF7B;
       min-width: 250px;
       padding: 0;
       list-style: none;
@@ -128,7 +128,7 @@
         width: 100%;
         border-bottom: 1px solid #cccccc;
         &:hover{
-          color: #000;
+          color: #00AF7B;
           background: rgba(255, 255, 255, 0.95);
           cursor: pointer;
         }
