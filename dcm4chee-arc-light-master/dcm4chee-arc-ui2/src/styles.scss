@@ -79,6 +79,9 @@ $hoverBlue: #5293c1;
             -moz-border-radius: 0px;
             border-radius: 0px;
             border: none;
+            &.active {
+              color: white
+            }
           }
         }
       }
@@ -4596,14 +4599,15 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
   ul.nav-tabs {
     li.active {
       & > a {
-        background: $backgroundColorWhite;
-        color: black;
+        background: #00AF7B;
+        color: white;
+        border-radius: 5px 5px 0 0;
       }
     }
     li:not(.active) {
       a:hover {
-        background: $backgroundHoverColorWhite;
-        color: black;
+        background: white;
+        color: #00AF7B;
       }
     }
   }
