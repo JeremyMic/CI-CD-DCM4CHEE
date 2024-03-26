@@ -153,7 +153,7 @@ $pink:#00AF7B;
       z-index: 4;
       position: relative;
       &.selected{
-        background:#00AF7B;
+        background:white;
       }
     }
     &.study_block, &.mwl_block, &.diff_block{
@@ -164,7 +164,7 @@ $pink:#00AF7B;
       position: relative;
       z-index: 3;
       &.selected{
-        background:#00AF7B;
+        background:white;
       }
     }
     &.diff_block{
@@ -173,12 +173,12 @@ $pink:#00AF7B;
     &.series_block{
       margin-left: 4px;
       width: calc(100% - 4px);
-      background: #00AF7B;
+      background: white;
       padding-left: 30px;
       position: relative;
       z-index: 2;
       &.selected{
-        background:#00AF7B;
+        background:white;
       }
 
     }

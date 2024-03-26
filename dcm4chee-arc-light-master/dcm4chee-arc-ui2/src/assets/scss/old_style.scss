@@ -108,12 +108,12 @@ ul.nav#mainmenu {
 			outline: none;
 	    }
 		a.active{
-			background: rgba(32, 46, 58, 0.45);
+			background: #00AF7B;
 			font-weight:bold;
 		}
 	}
 	li.active{
-		background: rgba(32, 46, 58, 0.45);
+		background: #00AF7B;
 		a{
 			background: transparent;
 			//text-decoration: underline;
@@ -137,7 +137,7 @@ ul.nav#mainmenu {
 	}
 }
 .toggle-button.out {
-	background: #00AF7B;
+	background: white;
 	// -moz-box-shadow: 5px 2px 7px 3px #7e7e7e;
 	// -webkit-box-shadow: 5px 2px 7px 3px #7e7e7e;
 	// box-shadow: 5px 2px 7px 3px #7e7e7e;
