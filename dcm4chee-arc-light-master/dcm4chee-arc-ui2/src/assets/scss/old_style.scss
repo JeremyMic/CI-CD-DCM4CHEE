@@ -616,7 +616,7 @@ device and create an other one with the new name*/
 		    border-color: #296ba0;
 		    color: #fff;
 		    background: url(../img/info.png);
-    		background-color: rgba(28, 36, 43, 0.92);
+    		background-color: rgba(227, 247, 252, 0.9);
 			background-size:55px;
 			background-position: 15px center;
 			background-repeat: no-repeat;
@@ -624,7 +624,7 @@ device and create an other one with the new name*/
               color:#fff;
             }
 			&:hover{
-	    		background-color: rgb(28, 36, 43);
+	    		background-color: rgba(227, 247, 252, 1);
 			}
 
     	}
@@ -633,14 +633,14 @@ device and create an other one with the new name*/
 			background-size:55px;
 			background-position: 15px center;
 			background-repeat: no-repeat;
-    		background-color: rgba(202, 33, 33, 0.9);
-    		border-color: #b41d1d;
-		    color: #fff;
+    		background-color: rgba(251, 227, 228, 0.9);
+    		border-color: rgba(251, 227, 228, 1);
+		    color: #EA5455;
             a{
-              color:#fff;
+              color:#EA5455;
             }
 		    &:hover{
-    			background-color: rgb(202, 33, 33);
+    			background-color: rgba(251, 227, 228, 1);
 		    }
     	}
     	&.warning{
@@ -648,14 +648,14 @@ device and create an other one with the new name*/
 			background-size:55px;
 			background-position: 15px center;
 			background-repeat: no-repeat;
- 			background-color: rgba(197, 131, 0, 0.9);
-    		border-color: #b97429;
-		    color: #fff;
+ 			background-color: rgba(255, 246, 225, 0.9);
+    		border-color: rgba(255, 246, 225, 1);
+		    color: #F09C2F;
             a{
-              color:#fff;
+              color:#F09C2F;
             }
 		    &:hover{
-    			background-color: rgb(197, 131, 0);
+    			background-color: rgba(255, 246, 225, 1);
 		    }
     	}
     	&:hover{
