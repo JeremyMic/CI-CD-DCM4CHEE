@@ -1566,7 +1566,7 @@ iod-form-generator {
         }
       }
       &:hover {
-        background: $blue;
+        background: #00AF7B;
       }
       &.btn-danger {
         background: #da3a36;
@@ -1576,9 +1576,11 @@ iod-form-generator {
       }
     }
     &.cancle {
+      background: white;
+      color: #00AF7B;
       &:hover {
-        background: #aaaaaa;
-        color: black;
+        background: #00AF7B;
+        color: white;
       }
     }
   }
@@ -4853,7 +4855,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
       tr {
         background: rgba(28, 36, 43, 0.92);
         th {
-          background: transparent;
+          background: #00AF7B;
         }
       }
     }
@@ -4955,7 +4957,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
           }
         }
         .glyphicon {
-          color: black;
+          color: #00AF7B;
         }
       }
     }

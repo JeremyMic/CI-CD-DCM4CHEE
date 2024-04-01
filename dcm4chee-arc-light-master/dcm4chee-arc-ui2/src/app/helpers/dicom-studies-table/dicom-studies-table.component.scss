@@ -48,6 +48,7 @@ $pink:#00AF7B;
     width: 100%;
     float: left;
     .td{
+      background-color: #ececec;
       float: left;
       padding: 5px 7px;
       overflow: hidden;
@@ -76,8 +77,8 @@ $pink:#00AF7B;
         }
       }
       &.active, &.value:hover, &.pipe:hover{
-        background: white;
-        color: #00AF7B ;
+        background: #00AF7B;
+        color: white ;
       }
 
       .actions_menu{
@@ -185,7 +186,7 @@ $pink:#00AF7B;
     &.instance_block{
       margin-left: 6px;
       width: calc(100% - 6px);
-      background: #00AF7B;
+      background: white;
       padding-left: 45px;
       position: relative;
       z-index: 1;
