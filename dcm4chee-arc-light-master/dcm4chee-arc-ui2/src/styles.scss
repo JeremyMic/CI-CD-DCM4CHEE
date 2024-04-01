@@ -1546,7 +1546,7 @@ iod-form-generator {
   width: 100%;
   button {
     border: 0 none;
-    border-radius: 0px;
+    border-radius: 5px;
     float: right;
     font-family: inherit;
     font-size: 0.8em;
@@ -1557,6 +1557,7 @@ iod-form-generator {
     text-transform: uppercase;
     &.save {
       background: $greenKalbe;
+      border-radius: 5px;
       color: white;
       &[disabled] {
         color: #888;
@@ -1578,6 +1579,8 @@ iod-form-generator {
     &.cancle {
       background: white;
       color: #00AF7B;
+      border: 1px solid #00AF7B;
+      border-radius: 5px;
       &:hover {
         background: #00AF7B;
         color: white;
