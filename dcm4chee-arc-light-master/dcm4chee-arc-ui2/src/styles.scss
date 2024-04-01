@@ -1568,7 +1568,9 @@ iod-form-generator {
       }
       &:hover {
         background: white;
-        color: #00AF7B
+        color: #00AF7B;
+        border: 1px solid $greenKalbe;
+        border-radius: 5px;
       }
       &.btn-danger {
         background: #da3a36;
@@ -2102,7 +2104,8 @@ mat-mdc-form-field {
     -moz-border-radius: 0;
     border-radius: 0;
     &:hover {
-      background: $greenKalbe;
+      background: white;
+      color: &$greenKalbe;
     }
   }
   .btn-danger {
