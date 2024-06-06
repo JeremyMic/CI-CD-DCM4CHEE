@@ -2,7 +2,9 @@ name: Maven CI/CD Workflow
 
 on:
   push:
-    branches: [main]
+    branches: 
+      - main
+      - redesign-for-elva
   pull_request:
     branches: [main]
 
