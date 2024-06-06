@@ -73,12 +73,15 @@ $hoverBlue: #5293c1;
         &.active {
           a {
             margin-right: 0px;
-            background: $lightBlueNoTransparence;
+            background: #00AF7B;
             color: white;
             -webkit-border-radius: 0px;
             -moz-border-radius: 0px;
             border-radius: 0px;
             border: none;
+            &.active {
+              color: white
+            }
           }
         }
       }
@@ -856,8 +859,7 @@ p-calendar {
   color: #333333;
   border: 1px solid #cccccc;
   &.active {
-    background: rgba(6, 29, 47, 0.84);
-    border: none;
+    background: #00AF7B;
     color: white;
     .mat-checkbox-checked.mat-accent .mat-checkbox-background,
     .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
@@ -1288,7 +1290,8 @@ mat-grid-list {
   li {
     a {
       &.active {
-        background: rgba(32, 46, 58, 0.45);
+        background: #00AF7B;
+        color: white
       }
     }
   }
@@ -1543,7 +1546,7 @@ iod-form-generator {
   width: 100%;
   button {
     border: 0 none;
-    border-radius: 0px;
+    border-radius: 5px;
     float: right;
     font-family: inherit;
     font-size: 0.8em;
@@ -1554,6 +1557,7 @@ iod-form-generator {
     text-transform: uppercase;
     &.save {
       background: $greenKalbe;
+      border-radius: 5px;
       color: white;
       &[disabled] {
         color: #888;
@@ -1563,7 +1567,10 @@ iod-form-generator {
         }
       }
       &:hover {
-        background: $blue;
+        background: white;
+        color: #00AF7B;
+        border: 1px solid $greenKalbe;
+        border-radius: 5px;
       }
       &.btn-danger {
         background: #da3a36;
@@ -1573,9 +1580,13 @@ iod-form-generator {
       }
     }
     &.cancle {
+      background: white;
+      color: #00AF7B;
+      border: 1px solid #00AF7B;
+      border-radius: 5px;
       &:hover {
-        background: #aaaaaa;
-        color: black;
+        background: #00AF7B;
+        color: white;
       }
     }
   }
@@ -2093,7 +2104,8 @@ mat-mdc-form-field {
     -moz-border-radius: 0;
     border-radius: 0;
     &:hover {
-      background: $greenKalbe;
+      background: white;
+      color: $greenKalbe;
     }
   }
   .btn-danger {
@@ -4596,14 +4608,15 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
   ul.nav-tabs {
     li.active {
       & > a {
-        background: $backgroundColorWhite;
-        color: black;
+        background: #00AF7B;
+        color: white;
+        border-radius: 5px 5px 0 0;
       }
     }
     li:not(.active) {
       a:hover {
-        background: $backgroundHoverColorWhite;
-        color: black;
+        background: white;
+        color: #00AF7B;
       }
     }
   }
@@ -4708,7 +4721,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
       .line {
         .mat-progress-spinner circle,
         .mat-mdc-progress-spinner circle {
-          stroke: rgba(28, 36, 43, 0.92);
+          stroke: #00AF7B;
         }
         .input_group_dropdown {
           input {
@@ -4724,11 +4737,11 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
       .size_range_picker {
         .size_range_icon {
           background-image: url("assets/img/size_range_white.png");
-          background-color: rgba(28, 36, 43, 0.92);
+          background-color: #00AF7B;
           background-repeat: no-repeat;
           background-position: center;
           &:hover {
-            background-color: rgb(22, 29, 35);
+            background-color:#00AF7B;
           }
         }
       }
@@ -4749,8 +4762,8 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
     .clearform_button {
       color: rgba(255, 255, 255, 0.61);
       ul li:hover {
-        color: rgb(22, 29, 35);
-        background: rgba(28, 36, 43, 0.92);
+        color: white;
+        background: #00AF7B;
       }
     }
     .btn-default.submit {
@@ -4849,7 +4862,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
       tr {
         background: rgba(28, 36, 43, 0.92);
         th {
-          background: transparent;
+          background: #00AF7B;
         }
       }
     }
@@ -4913,12 +4926,12 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
   .j4care-table,
   .table.table-inverse,
   .table {
-    -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-    -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
-    box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+    // -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+    // -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
+    // box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
     tr {
       th {
-        background: rgba(28, 36, 43, 0.92);
+        background: #00AF7B;
         color: white;
         a {
           color: white;
@@ -4951,7 +4964,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
           }
         }
         .glyphicon {
-          color: black;
+          color: #DBDADE;
         }
       }
     }

@@ -1,42 +1,44 @@
-$height:27px;
-.main_input_block{
+$height: 27px;
+.main_input_block {
   position: relative;
   height: $height;
-  .main_input{
+  .main_input {
     width: 100%;
     height: 100%;
     border-top: none;
     border-right: none;
     border-left: none;
-    background:transparent;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
-  .filter_button{
-    border-radius:5px ;
-    -webkit-border-radius:5px ;
-    -moz-border-radius:5px ;
-    -ms-border-radius:5px ;
-    -o-border-radius:5px ;
-    background: #00AF7B;
+  .filter_button {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #00af7b;
     color: white;
     position: absolute;
     top: 0;
     right: 0;
     height: $height;
-    &:hover{
+    &:hover {
       cursor: pointer;
     }
   }
-  .issuers{
-    .issuer{
+  .issuers {
+    .issuer {
       margin: 10px 0;
       float: left;
       width: 100%;
-      .issuer_label{
+      .issuer_label {
         width: 50%;
         text-align: right;
         padding-right: 10px;
       }
-      .issuer_model{
+      .issuer_model {
         width: 50%;
         float: right;
       }
@@ -44,29 +46,34 @@ $height:27px;
   }
 }
 
-.content_block{
+.content_block {
   display: block;
   position: absolute;
   background: white;
   z-index: 9999;
-  box-shadow: 7px 10px 10px 5px #444;
+  // box-shadow: 7px 10px 10px 5px #444;
   padding: 20px 15px;
   min-width: 560px;
-  border-top: 20px solid rgba(6, 29, 47, 0.84);
+  border-top: 20px solid #00af7b;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  h5{
+  h5 {
     font-size: 18px;
   }
-  .set_button{
-    background: rgba(6, 29, 47, 0.84);
+  .set_button {
+    background: #00af7b;
     color: white;
-    border: 0;
+    border: 1px solid #00af7b;
+    border-radius: 5px;
     width: 24%;
     float: right;
+    &:hover {
+      background: white;
+      color: #00af7b;
+    }
   }
 }
-.overlay{
+.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -75,12 +82,12 @@ $height:27px;
   z-index: 1000;
   pointer-events: auto;
   -webkit-tap-highlight-color: transparent;
-  -webkit-transition: opacity .4s cubic-bezier(.25,.8,.25,1);
-  transition: opacity .4s cubic-bezier(.25,.8,.25,1);
+  -webkit-transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
   opacity: 1;
-  background: rgba(0,0,0,.32);
+  background: rgba(0, 0, 0, 0.32);
 }
-.clear_picker{
+.clear_picker {
   position: absolute;
   right: 25px;
   top: 5px;

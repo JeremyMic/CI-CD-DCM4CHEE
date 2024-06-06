@@ -30,6 +30,8 @@
         //width:calc( 100% - 24px);
         float: left;
         .dropdown_input{
+          border: 1px solid #ccc;
+          border-radius: 5px;
           line-height: 26px;
           height: 26px;
         }

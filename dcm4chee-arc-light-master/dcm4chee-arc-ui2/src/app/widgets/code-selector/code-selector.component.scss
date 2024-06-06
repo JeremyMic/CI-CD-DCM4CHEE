@@ -52,18 +52,24 @@ $height:27px;
   box-shadow: 7px 10px 10px 5px #444;
   padding: 20px 15px;
   min-width: 560px;
-  border-top: 20px solid rgba(6, 29, 47, 0.84);
+  border-top: 20px solid #00AF7B;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   h5{
     font-size: 18px;
   }
   .set_button{
-    background: rgba(6, 29, 47, 0.84);
+    background: #00AF7B;
     color: white;
     border: 0;
     width: 24%;
     float: right;
+    border: 1px solid #00AF7B;
+    border-radius: 5px;
+    &:hover{
+      background-color: white;
+      color:#00AF7B;
+    }
   }
 }
 .overlay{
