@@ -96,9 +96,10 @@ ul.nav#mainmenu {
 	    a{
 	    	//background:white;
 	    	background: transparent;
-	    	color:#8a878e;
+	    	color:#4B465C;
 	    	//text-align: right;
-
+			padding: 0 4px 0 4px;
+			border-bottom: 1px solid #DCDCDC;
 	    }
 	    a:hover{
 	    	background:transparent;
@@ -110,6 +111,7 @@ ul.nav#mainmenu {
 		a.active{
 			background: #29659B;
 			font-weight:bold;
+			color: white
 		}
 	}
 	li.active{

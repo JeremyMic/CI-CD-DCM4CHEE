@@ -18,7 +18,7 @@ $height: 27px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    background: #00af7b;
+    background: #29659B;
     color: white;
     position: absolute;
     top: 0;
@@ -54,22 +54,22 @@ $height: 27px;
   // box-shadow: 7px 10px 10px 5px #444;
   padding: 20px 15px;
   min-width: 560px;
-  border-top: 20px solid #00af7b;
+  border-top: 20px solid #29659B;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   h5 {
     font-size: 18px;
   }
   .set_button {
-    background: #00af7b;
+    background: #29659B;
     color: white;
-    border: 1px solid #00af7b;
+    border: 1px solid #29659B;
     border-radius: 5px;
     width: 24%;
     float: right;
     &:hover {
       background: white;
-      color: #00af7b;
+      color: #29659B;
     }
   }
 }
