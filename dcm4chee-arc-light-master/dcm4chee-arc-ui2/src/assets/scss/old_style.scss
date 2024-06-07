@@ -95,11 +95,12 @@ ul.nav#mainmenu {
 			border-bottom: 1px solid white;
 		}
 	    a{
-	    	//background:white;
 	    	background: transparent;
 	    	color:#4B465C;
-	    	//text-align: right;
 			border-bottom: 1px solid #DCDCDC;
+			height: 50px;
+			display: flex;
+			align-items: center;
 	    }
 	    a:hover{
 	    	background:transparent;
