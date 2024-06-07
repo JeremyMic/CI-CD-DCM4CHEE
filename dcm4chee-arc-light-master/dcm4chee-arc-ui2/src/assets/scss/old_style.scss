@@ -15,7 +15,7 @@ body{
 		//background: url("../img/155539853.jpg");
 		background: #f1f3f2;
 		// background: linear-gradient(180deg, #3b6b8f8a 0%, rgb(87 216 255 / 65%) 100%);
-		background-image: url("../img/kalbe_bg.png");
+		background-image: url("../img/elva_bg.png");
         background-repeat: no-repeat;
         background-size: 100%;
 	    display: block;
@@ -89,6 +89,7 @@ ul.nav#mainmenu {
 	    background: transparent;
 	    color: white;
 	    width: 100%;
+		padding: 0 10px 0 10px;
 		border-top: 1px solid white;
 		&:last-child{
 			border-bottom: 1px solid white;
@@ -98,7 +99,6 @@ ul.nav#mainmenu {
 	    	background: transparent;
 	    	color:#4B465C;
 	    	//text-align: right;
-			padding: 0 4px 0 4px;
 			border-bottom: 1px solid #DCDCDC;
 	    }
 	    a:hover{
