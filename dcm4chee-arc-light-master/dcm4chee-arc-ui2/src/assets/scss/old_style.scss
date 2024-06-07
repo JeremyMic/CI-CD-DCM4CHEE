@@ -108,12 +108,12 @@ ul.nav#mainmenu {
 			outline: none;
 	    }
 		a.active{
-			background: #00AF7B;
+			background: #29659B;
 			font-weight:bold;
 		}
 	}
 	li.active{
-		background: #00AF7B;
+		background: #29659B;
 		a{
 			background: transparent;
 			//text-decoration: underline;
@@ -194,7 +194,7 @@ ul.nav#mainmenu {
 	.btn {
 	    //background: rgba(54, 54, 54, 0.55) none repeat scroll 0 0;
 	    //border: 1px solid #ccc;
-	    background: #00AF7B;
+	    background: #29659B;
 		border:1px solid white;
 	    color: #ffffff;
 	    display: block;
@@ -246,12 +246,12 @@ device and create an other one with the new name*/
 		     background: rgba(255, 255, 255, 0.63);
 		}
 		.btn-primary,.save, .btn{
-			background: #00AF7B;
+			background: #29659B;
 			border:1px solid white;
 			border-radius:0;
 		}
 		.btn-primary:hover,.save:hover, .btn:hover{
-			background: #00AF7B;
+			background: #29659B;
 			color: white;
 
 		}
@@ -2838,7 +2838,7 @@ table.j4care-table{
 	.nav-tabs{
 		li{
 			a{
-				color: #00AF7B;
+				color: #29659B;
 				&:hover{
 					cursor: pointer;
 				}
@@ -2860,7 +2860,7 @@ table.j4care-table{
 		    background:white;
 		}
 		button{
-			background: #00AF7B none repeat scroll 0 0;
+			background: #29659B none repeat scroll 0 0;
 		    border: 1px solid #ccc;
 		    color: white;
 		    border-radius:0;
@@ -2874,7 +2874,7 @@ table.j4care-table{
 		}
 	}
 	.adddevice{
-	  	background: #00AF7B none repeat scroll 0 0;
+	  	background: #29659B none repeat scroll 0 0;
 	    border: 1px solid #ccc;
 	    color: white;
 	    height: 27px;
@@ -3903,7 +3903,7 @@ color:white;*/
             border-top:1px solid #ddd;
           }
 		    h4 {
-			    background: #00AF7B;
+			    background: #29659B;
 			    // -moz-box-shadow: 1px 6px 6px -3px #a3a1a1;
 			    // -webkit-box-shadow: 1px 6px 6px -3px #a3a1a1;
 			    // box-shadow: 1px 6px 6px -3px #a3a1a1;

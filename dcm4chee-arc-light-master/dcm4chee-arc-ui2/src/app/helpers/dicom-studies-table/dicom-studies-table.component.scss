@@ -1,5 +1,5 @@
 $hoverColor:#9fa4a9;
-$pink:#00AF7B;
+$pink:#29659B;
 
 .j4care_dynamic_table{
   float: left;
@@ -8,7 +8,7 @@ $pink:#00AF7B;
   .th{
     width: 100%;
     float: left;
-    background: #00AF7B ;
+    background: #29659B ;
     color:white;
     margin-bottom: 1px;
     &.studies, &.uwl, &.mpps{
@@ -77,7 +77,7 @@ $pink:#00AF7B;
         }
       }
       &.active, &.value:hover, &.pipe:hover{
-        background: #00AF7B;
+        background: #29659B;
         color: white ;
       }
 
@@ -136,7 +136,7 @@ $pink:#00AF7B;
           left: 0;
           top: 0;
           display: block;
-          background: #00AF7B ;
+          background: #29659B ;
           padding: 5px 7px;
           color:white;
         }
@@ -191,7 +191,7 @@ $pink:#00AF7B;
       position: relative;
       z-index: 1;
       &.selected{
-        background:#00AF7B;
+        background:#29659B;
       }
 
     }
@@ -202,14 +202,14 @@ $pink:#00AF7B;
     .centered_child{
       display: inline-block;
       button{
-        color: #00AF7B;
+        color: #29659B;
         &:hover{
-          color: #00AF7B;
+          color: #29659B;
           cursor: pointer;
         }
       }
       button[disabled], button[disabled]:hover{
-        color: #00AF7B;
+        color: #29659B;
       }
     }
   }

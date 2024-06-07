@@ -3,9 +3,11 @@
 //@import "~bootstrap/dist/css/bootstrap.min.css";
 @import "@angular/material/prebuilt-themes/deeppurple-amber.css";
 
-$green: #2fa6c1;
+$elvaLoading: #2fa6c1;
 $elvaPrimary: #29659B;
 $elvaSecondaryLight1: #3E8DD8;
+$elvaShadowBorderTable: #ccc;
+$elvaTertiary: #29659B;
 $lightBlue: rgba(6, 29, 47, 0.84);
 $lightBlueNoTransparence: #2c404f;
 $blue: #061d2f;
@@ -68,7 +70,7 @@ $hoverBlue: #5293c1;
       border: 1px solid #ddd;
       & > li {
         clear: left;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid $elvaShadowBorderTable;
         margin-bottom: 0px;
         width: 100%;
         &.active {
@@ -426,7 +428,7 @@ fieldset {
 .btn-breadcrumb .btn {
   padding: 6px 12px 6px 24px;
   border-radius: 0;
-  border: 1px solid #ccc;
+  border: 1px solid $elvaShadowBorderTable;
   margin-left: -4px;
 }
 .prev_breadcrumb {
@@ -435,7 +437,7 @@ fieldset {
 .btn-default {
   color: #333;
   background-color: #fff;
-  border-color: #ccc;
+  border-color: $elvaShadowBorderTable;
 }
 .btn-link,
 .btn-link.active,
@@ -535,7 +537,7 @@ table-bordered {
 }
 .diff_input {
   margin: 2px 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $elvaShadowBorderTable;
   padding: 0px 10px;
   .glyphicon {
     float: right;
@@ -613,7 +615,7 @@ progress::-webkit-progress-value {
 }
 .check_block,
 .send_block {
-  border: 1px solid #ccc;
+  border: 1px solid $elvaShadowBorderTable;
   padding: 11px 10px;
   margin-top: 10px;
   //height: 60px;
@@ -962,7 +964,7 @@ mat-grid-list {
   width: 50% !important;
 }
 .group_input {
-  border: 1px solid #ccc;
+  border: 1px solid $elvaShadowBorderTable;
   margin-left: 0;
   margin-right: 0;
 }
@@ -971,13 +973,13 @@ mat-grid-list {
   //padding: 3px 7px;
   text-align: left;
   min-height: 28px;
-  border: 1px solid #ccc;
+  border: 1px solid $elvaShadowBorderTable;
   &.single {
     margin-top: 38px;
   }
   .count_text {
     display: inline-block;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid $elvaShadowBorderTable;
     margin: 3px 0 3px 7px;
     width: 76%;
   }
@@ -1026,7 +1028,7 @@ mat-grid-list {
 }
 .mat-select-trigger,
 .mat-mdc-select-trigger {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $elvaShadowBorderTable;
   min-height: 25px;
 }
 
@@ -1112,7 +1114,7 @@ mat-grid-list {
       table {
         margin: 0;
         width: 50%;
-        border-right: 1px solid #ccc;
+        border-right: 1px solid $elvaShadowBorderTable;
         float: left;
         tr {
           color: #2d404f;
@@ -1154,7 +1156,7 @@ mat-grid-list {
             width: 55%;
             height: 30px;
             border: none;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 1px solid $elvaShadowBorderTable;
             text-align: right;
           }
           span {
@@ -1200,7 +1202,7 @@ mat-grid-list {
 .mat-select-trigger,
 .mat-mdc-select-trigger {
   height: 30px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $elvaShadowBorderTable;
 }
 .filter_template_function {
   mat-checkbox {
@@ -1300,8 +1302,8 @@ mat-grid-list {
 
 .slim-loading-bar {
   .slim-loading-bar-progress {
-    background: $green;
-    color: $green;
+    background: $elvaLoading;
+    color: $elvaLoading;
     position: fixed;
     left: 0;
     top: 0;
@@ -1313,8 +1315,8 @@ mat-progress-circle,
   height: 25px !important;
   svg {
     path {
-      color: $green;
-      stroke: $green;
+      color: $elvaLoading;
+      stroke: $elvaLoading;
     }
   }
 }
@@ -1397,9 +1399,9 @@ iod-form-generator {
     max-height: 300px;
     overflow-y: scroll;
     width: 34%;
-    -moz-box-shadow: 4px 6px 16px 5px #ccc;
-    -webkit-box-shadow: 4px 6px 16px 5px #ccc;
-    box-shadow: 4px 6px 16px 5px #ccc;
+    -moz-box-shadow: 4px 6px 16px 5px $elvaShadowBorderTable;
+    -webkit-box-shadow: 4px 6px 16px 5px $elvaShadowBorderTable;
+    box-shadow: 4px 6px 16px 5px $elvaShadowBorderTable;
     z-index: 99999;
     position: absolute;
     background: white;
@@ -1413,7 +1415,7 @@ iod-form-generator {
         background: rgba(3, 0, 255, 0.5);
       }
       &:hover {
-        background: #ccc;
+        background: $elvaShadowBorderTable;
         cursor: pointer;
         text-decoration: none;
       }
@@ -1493,7 +1495,7 @@ iod-form-generator {
         }
         select {
           background: #ffffff;
-          border: 1px solid #ccc;
+          border: 1px solid $elvaShadowBorderTable;
         }
         p-calendar {
           width: 97%;
@@ -1783,7 +1785,7 @@ mat-mdc-form-field {
     .mat-mdc-form-field-infix {
       input {
         border: none;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid $elvaShadowBorderTable;
       }
     }
   }
@@ -1861,7 +1863,7 @@ mat-mdc-form-field {
       color: black;
       padding: 3px 7px;
       width: 49%;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       text-decoration: none;
       i.glyphicon {
         float: right;
@@ -1887,7 +1889,7 @@ mat-mdc-form-field {
       color: black;
       padding: 3px 7px;
       width: 49%;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       text-decoration: none;
     }
   }
@@ -1906,7 +1908,7 @@ mat-mdc-form-field {
       text-align: center;
       border-top-left-radius: 3px;
       border-bottom-left-radius: 3px;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       border-right: none;
     }
     .inputpart {
@@ -2032,7 +2034,7 @@ mat-mdc-form-field {
     select,
     j4care-select,
     dcm-drop-down {
-      border-color: #ccc;
+      border-color: $elvaShadowBorderTable;
       border-style: solid;
       border-width: 1px;
       border-radius: 0;
@@ -2114,7 +2116,7 @@ mat-mdc-form-field {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    border-color: #ccc;
+    border-color: $elvaShadowBorderTable;
     color: black;
     background-color: white;
     &:hover {
@@ -2199,7 +2201,7 @@ mat-mdc-form-field {
 .main_white_content {
   .tab-content {
     padding: 30px 10px 10px 10px;
-    border: 1px solid #ccc;
+    border: 1px solid $elvaShadowBorderTable;
     border-top: none;
     table {
       margin-top: 35px;
@@ -2253,7 +2255,7 @@ mat-mdc-form-field {
 .export {
   select {
     background: white;
-    border: 1px solid #ccc;
+    border: 1px solid $elvaShadowBorderTable;
   }
   .dicomBlock,
   .noneDicomBlock {
@@ -2332,14 +2334,14 @@ mat-mdc-form-field {
     width: 100%;
     float: left;
     background: white;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid $elvaShadowBorderTable;
     padding-bottom: 10px;
     //margin-bottom: 10px;
     margin-top: 20px;
   }
   input[type="text"] {
     margin: 5px 0;
-    border: 1px solid #ccc;
+    border: 1px solid $elvaShadowBorderTable;
     padding: 3px 7px;
   }
   mat-select {
@@ -2350,7 +2352,7 @@ mat-mdc-form-field {
   float: left;
   color: #777;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid $elvaShadowBorderTable;
   margin-top: 2px;
   height: 30px;
   vertical-align: middle;
@@ -2374,7 +2376,7 @@ mat-mdc-form-field {
       float: left;
       color: #777;
       width: 100%;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       margin-top: 2px;
       height: 30px;
       vertical-align: middle;
@@ -2399,7 +2401,7 @@ mat-mdc-form-field {
       opacity: 0;
       float: left;
       text-align: center;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       height: 30px;
       margin-left: 1%;
       color: #777;
@@ -2422,7 +2424,7 @@ mat-mdc-form-field {
       opacity: 0;
       float: left;
       text-align: center;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       height: 30px;
       margin-left: 10%;
       color: #777;
@@ -2477,7 +2479,7 @@ mat-mdc-form-field {
     mat-mdc-select {
       .mat-select-trigger,
       .mat-mdc-select-trigger {
-        border: 1px solid #ccc;
+        border: 1px solid $elvaShadowBorderTable;
         .mat-select-value,
         .mat-mdc-select-value {
           line-height: 30px;
@@ -2527,7 +2529,7 @@ mat-mdc-form-field {
   text-decoration: none;
   display: block;
   background: transparent;
-  border: 1px solid #ccc;
+  border: 1px solid $elvaShadowBorderTable;
   padding: 1px 25px 1px 5px;
   height: 30px;
   line-height: 25px;
@@ -2554,9 +2556,9 @@ mat-mdc-form-field {
     overflow: auto;
     max-height: 200px;
     padding: 6px;
-    -webkit-box-shadow: inset 0px 0px 17px 3px #ccc;
-    -moz-box-shadow: inset 0px 0px 17px 3px #ccc;
-    box-shadow: inset 0px 0px 17px 3px #ccc;
+    -webkit-box-shadow: inset 0px 0px 17px 3px $elvaShadowBorderTable;
+    -moz-box-shadow: inset 0px 0px 17px 3px $elvaShadowBorderTable;
+    box-shadow: inset 0px 0px 17px 3px $elvaShadowBorderTable;
   }
 }
 .breadcrumb_container {
@@ -2583,7 +2585,7 @@ mat-mdc-form-field {
       list-style: none;
       padding: 0;
       min-height: 24px;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       min-width: 100%;
       left: 1px;
       -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.78);
@@ -2618,7 +2620,7 @@ mat-mdc-form-field {
           left: 10px;
           height: 26px;
           border-radius: 0;
-          border: 1px solid #ccc;
+          border: 1px solid $elvaShadowBorderTable;
           padding: 0 7px;
           top: 5px;
           max-width: calc(98% - 10px);
@@ -2626,7 +2628,7 @@ mat-mdc-form-field {
         .compare_button {
           float: right;
           width: 30px;
-          border: 1px solid #ccc;
+          border: 1px solid $elvaShadowBorderTable;
           color: black;
           height: 100%;
           font-size: 16px;
@@ -2710,7 +2712,7 @@ mat-mdc-form-field {
     height: 0;
     border-top: 17px solid transparent;
     border-bottom: 17px solid transparent;
-    border-left: 10px solid #ccc;
+    border-left: 10px solid $elvaShadowBorderTable;
     position: absolute;
     top: 50%;
     margin-top: -17px;
@@ -2742,7 +2744,7 @@ mat-mdc-form-field {
     }
   }
   .btn.btn-default:before {
-    border-left: 10px solid #ccc;
+    border-left: 10px solid $elvaShadowBorderTable;
   }
   .btn.btn-default:not(:last-child):hover:after {
     border-left: 10px solid $lightBlueNoTransparence;
@@ -2759,7 +2761,7 @@ mat-mdc-form-field {
   }
   a {
     text-decoration: none;
-    border: 1px solid #ccc;
+    border: 1px solid $elvaShadowBorderTable;
     padding: 0 14px;
     height: 30px;
     display: inline-block;
@@ -2808,7 +2810,7 @@ mat-mdc-form-field {
   }
   .current_title {
     text-decoration: none;
-    border: 1px solid #ccc;
+    border: 1px solid $elvaShadowBorderTable;
     padding: 0 14px;
     height: 30px;
     display: inline-block;
@@ -2847,7 +2849,7 @@ mat-mdc-form-field {
 .dynamicform {
   .simple_input {
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid $elvaShadowBorderTable;
     height: 30px;
     padding-left: 7px;
   }
@@ -2861,7 +2863,7 @@ mat-mdc-form-field {
     width: 100%;
     background: white;
     height: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid $elvaShadowBorderTable;
   }
 
   .button {
@@ -2869,7 +2871,7 @@ mat-mdc-form-field {
       display: block;
       float: left;
       text-align: center;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       height: 30px;
       line-height: 30px;
       margin-left: 2px;
@@ -2962,7 +2964,7 @@ mat-mdc-form-field {
             text-align: center;
             line-height: 30px;
             vertical-align: middle;
-            border: 1px solid #ccc;
+            border: 1px solid $elvaShadowBorderTable;
             color: #777;
             -webkit-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.61);
             -moz-box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.61);
@@ -2996,7 +2998,7 @@ mat-mdc-form-field {
         opacity: 0;*/
         float: left;
         text-align: center;
-        border: 1px solid #ccc;
+        border: 1px solid $elvaShadowBorderTable;
         height: 30px;
         margin-left: 2px;
         color: #777;
@@ -3033,7 +3035,7 @@ mat-mdc-form-field {
         }
       }
       .button.add.big {
-        border: 1px solid #ccc;
+        border: 1px solid $elvaShadowBorderTable;
         color: #444;
         visibility: visible;
         opacity: 1;
@@ -3054,7 +3056,7 @@ mat-mdc-form-field {
 
   .array_parent {
     input {
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       float: left;
       height: 30px;
       padding-left: 7px;
@@ -3072,7 +3074,7 @@ mat-mdc-form-field {
       //opacity: 0;
       float: left;
       text-align: center;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       height: 30px;
       margin-left: 2px;
       color: #777;
@@ -3129,7 +3131,7 @@ mat-mdc-form-field {
       float: right;
       color: #777;
       width: 100%;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       margin-top: 2px;
       height: 30px;
       vertical-align: middle;
@@ -3293,7 +3295,7 @@ mat-mdc-form-field {
 .tripal_compare {
   width: 100%;
   h5 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid $elvaShadowBorderTable;
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -3303,7 +3305,7 @@ mat-mdc-form-field {
   .queued {
     float: left;
     width: 100%;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid $elvaShadowBorderTable;
     margin-top: 10px;
     padding-top: 6px;
     position: relative;
@@ -3313,7 +3315,7 @@ mat-mdc-form-field {
     mat-mdc-checkbox {
       position: absolute;
       left: 50%;
-      border: 1px solid #ccc;
+      border: 1px solid $elvaShadowBorderTable;
       padding: 2px 10px;
       width: 250px;
       margin-left: -125px;
@@ -3378,9 +3380,9 @@ mat-mdc-form-field {
     table {
       width: 100%;
       tr {
-        border: 1px solid #ccc;
+        border: 1px solid $elvaShadowBorderTable;
         &.active {
-          background: #ccc;
+          background: $elvaShadowBorderTable;
         }
         &.active.diff_line {
           background: rgba(33, 56, 74, 0.76);
@@ -3439,7 +3441,7 @@ mat-mdc-form-field {
     float: left;
     width: 100%;
     margin-top: 15px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid $elvaShadowBorderTable;
     padding-top: 10px;
     position: relative;
     .save {
@@ -4714,7 +4716,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
         border: 1px solid #444;
       }
       .line > input {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid $elvaShadowBorderTable;
       }
       .filter_checkbox.active {
         color: black;
@@ -4749,7 +4751,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
       dcm-drop-down {
         .dcm_dropdown {
           .dropdown_input .input_part .edited_input_value {
-            border: 1px solid #ccc;
+            border: 1px solid $elvaShadowBorderTable;
             background: transparent;
             border-radius: 5px;
             -webkit-border-radius: 5px;
