@@ -4,11 +4,11 @@
   .input_field {
     display: grid;
     grid-template-columns: auto 26px;
-    width: 100%;
+    width: 90%;
     input {
       border: 1px solid #ccc;
       border-radius: 5px;
-      width: 100%;
+      width: 95%;
       background: transparent;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -88,6 +88,8 @@
         position: relative;
         background: white;
         color: black;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
       }
       &:hover .input_block span.glyphicon-remove {
         display: block;

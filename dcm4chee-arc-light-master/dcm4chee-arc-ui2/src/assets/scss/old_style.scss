@@ -89,7 +89,7 @@ ul.nav#mainmenu {
 	    background: transparent;
 	    color: white;
 	    width: 100%;
-		padding: 0 10px 0 10px;
+		padding: 10px 0 10px 0;
 		border-top: 1px solid white;
 		&:last-child{
 			border-bottom: 1px solid white;
@@ -1506,16 +1506,16 @@ table{
 
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  font-style:italic;
+  font-style:normal;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  font-style:italic;
+  font-style:normal;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  font-style:italic;
+  font-style:normal;
 }
 :-moz-placeholder { /* Firefox 18- */
-  font-style:italic;
+  font-style:normal;
 }
 
 .arrows{
@@ -1729,7 +1729,10 @@ app-studies{
 	}
 }
 .clearform_button{
-    color: #999;
+    color: white;
+	background: #EA5455;
+	border: 1px solid #EA5455;
+	border-radius: 5px;
     position: absolute;
     right: 26px;
     top: -23px;

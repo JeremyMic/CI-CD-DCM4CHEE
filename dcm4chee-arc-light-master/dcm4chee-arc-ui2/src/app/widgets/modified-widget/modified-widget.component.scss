@@ -3,18 +3,16 @@ $height:27px;
   position: relative;
   height: $height;
   .main_input{
-    width: 100%;
+    width: 87%;
     height: 100%;
-    border-top: none;
-    border-right: none;
-    border-left: none;
     background:transparent;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
     padding-left: 6px;
     color: #777;
     font-style: italic;
     &.black{
-      color:black;
+      color:#29659B;
       font-style: normal;
     }
   }
@@ -28,6 +26,7 @@ $height:27px;
     line-height: 27px;
     text-align: center;
     height: $height;
+    border-radius: 5px;
     &:hover{
       cursor: pointer;
     }
@@ -75,7 +74,7 @@ $height:27px;
     }
     i.material-icons{
       float: right;
-      background: rgb(6 29 47 / 84%);
+      background: #29659B;
       color: white;
       cursor: pointer;
       width:24px;
@@ -91,7 +90,7 @@ $height:27px;
   box-shadow: 7px 10px 10px 5px #444;
   padding: 30px;
   min-width: 560px;
-  border-top: 20px solid rgba(6, 29, 47, 0.84);
+  border-top: 20px solid #29659B;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   left: 50%;
@@ -101,7 +100,7 @@ $height:27px;
     font-size: 18px;
   }
   .set_button{
-    background: rgba(6, 29, 47, 0.84);
+    background: #29659B;
     color: white;
     border: 0;
     width: 24%;
@@ -139,7 +138,7 @@ $height:27px;
       }
       i.material-icons{
         float: right;
-        background: rgb(6 29 47 / 84%);
+        background: #29659B;
         color: white;
         cursor: pointer;
         width:24px;

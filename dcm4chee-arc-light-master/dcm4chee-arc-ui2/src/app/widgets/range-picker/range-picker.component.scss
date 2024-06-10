@@ -15,7 +15,7 @@ $elvaPrimary: #29659B;
   .main_input_block{
     width: 100%;
     .main_input{
-      width: calc(100% - 27px);
+      width: 82%;
       float: left;
       margin-top:0;
     }
@@ -30,6 +30,7 @@ $elvaPrimary: #29659B;
       line-height: 26px;
       top: 0;
       background: $elvaPrimary;
+      boarder-radius: 5px;
       &:hover{
         cursor: pointer;
       }

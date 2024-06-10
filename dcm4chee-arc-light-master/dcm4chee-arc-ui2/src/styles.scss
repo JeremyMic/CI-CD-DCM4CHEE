@@ -1843,7 +1843,7 @@ mat-mdc-form-field {
   h5 {
     font-size: 22px;
     font-weight: bold;
-    color: rgba(0, 175, 123, 1);
+    color: #29659B;
   }
 }
 .filter {
@@ -1851,7 +1851,7 @@ mat-mdc-form-field {
     width: 100%;
     float: left;
     .more {
-      background: rgba(0, 175, 123, 1);
+      background: #29659B;
       border-radius: 5px;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -1869,7 +1869,7 @@ mat-mdc-form-field {
         float: right;
       }
       &:hover {
-        background: rgba(0, 175, 123, 1);
+        background: #29659B;
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -4035,7 +4035,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
     box-sizing: border-box;
     width: 100%;
     padding: 0;
-    border: none;
+    border: 1px solid #cccccc;
     .long_loader {
       display: block;
       width: 0%;
@@ -4062,6 +4062,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
       width: 100%;
       float: left;
       padding: 30px 20px;
+      border : 1px solid #cccccc
       // -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
       // -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
       // box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
@@ -4178,7 +4179,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
   }
   .filter {
     .filter_block {
-      border: none;
+      border: 1px solid #cccccc;
       margin-right: 2px;
       margin-bottom: -1px;
       &.space_filler {
@@ -4266,7 +4267,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
   .filter_line {
     float: left;
     width: 100%;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -4337,6 +4338,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
     line-height: 28px;
     text-decoration: none;
     position: relative;
+    border-radius: 5px;
     &:hover {
       cursor: pointer;
     }
@@ -4763,10 +4765,13 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
       }
     }
     .clearform_button {
-      color: rgba(255, 255, 255, 0.61);
+      background: #EA5455;
+      border: 1px solid #EA5455;
+      border-radius: 5px;
+      color: white;
       ul li:hover {
-        color: white;
-        background: $elvaPrimary;
+        color: #EA5455;
+        background: white;
       }
     }
     .btn-default.submit {
