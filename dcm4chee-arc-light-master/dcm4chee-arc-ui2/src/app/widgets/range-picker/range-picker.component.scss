@@ -1,4 +1,5 @@
-$backgroundColor:rgba(6, 29, 47, 0.84);
+// $backgroundColor:rgba(6, 29, 47, 0.84);
+$backgroundColor:#FFFFFF;
 $elvaPrimary: #29659B;
 .range_picker{
   position: relative;
@@ -30,7 +31,7 @@ $elvaPrimary: #29659B;
       line-height: 26px;
       top: 0;
       background: $elvaPrimary;
-      boarder-radius: 5px;
+      border-radius: 5px;
       &:hover{
         cursor: pointer;
       }
@@ -57,26 +58,20 @@ $elvaPrimary: #29659B;
     min-height:200px;
     background: white;
     position: absolute;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    border-top: 20px solid #29659B;
     top:28px;
-    -webkit-box-shadow: 2px 2px 13px 0px #777;
-    -moz-box-shadow: 2px 2px 13px 0px #777;
-    box-shadow: 2px 2px 13px 0px #777;
     .include_time_block{
       display: block;
       min-height: 3px;
-      //height:20px;
-      //margin-bottom:10px;
       label{
-        //margin:0;
         background: $backgroundColor;
         color: white;
         width: calc(100% - 4px);
         line-height: 30px;
         margin: 5px 2px;
         padding-left: 10px;
-        -webkit-box-shadow: 3px 3px 6px 0px #666;
-        -moz-box-shadow: 3px 3px 6px 0px #666;
-        box-shadow: 3px 3px 6px 0px #666;
         padding:3px 10px 3px 11px;
         &:hover{
           cursor: pointer;
@@ -90,24 +85,8 @@ $elvaPrimary: #29659B;
     }
     .left{
       height: 50px;
-/*      display: grid;
-      grid-template-columns: 1fr 16px 1fr;
-      justify-content: center;
-      justify-items: center;*/
-/*      height: 50px;
-      //float: left;
-      //width:60%;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      margin: 10px 0;
-      -webkit-flex-flow: row wrap;
-      justify-content: space-around;*/
       .material_calendar{
         float: left;
-        //width: 45%;
         input{
           border:none;
           border-bottom: 1px solid #cccccc;
@@ -185,15 +164,14 @@ $elvaPrimary: #29659B;
         display: block;
         width: 24%;
         height: 30px;
-        color: white;
+        color: #29659B;
+        border: 1px solid #29659B;
+        border-radius: 5px;
         vertical-align: middle;
         line-height: 30px;
         //margin-right: 1%;
         text-align: center;
         //float: left;
-        -webkit-box-shadow: 3px 3px 6px 0px #666;
-        -moz-box-shadow: 3px 3px 6px 0px #666;
-        box-shadow: 3px 3px 6px 0px #666;
         &.active{
           -webkit-box-shadow: none;
           -moz-box-shadow: none;
@@ -263,15 +241,14 @@ $elvaPrimary: #29659B;
         display: block;
         width: 24%;
         height: 60px;
-        color: white;
         vertical-align: bottom;
         line-height: 86px;
         //margin-right: 1%;
         text-align: center;
-        //float: left;
-        -webkit-box-shadow: 3px 3px 6px 0px #666;
-        -moz-box-shadow: 3px 3px 6px 0px #666;
-        box-shadow: 3px 3px 6px 0px #666;
+        background-color: $backgroundColor;
+        color: #29659B;
+        border: 1px solid #29659B;
+        border-radius: 5px;
         &.active{
           -webkit-box-shadow: none;
           -moz-box-shadow: none;

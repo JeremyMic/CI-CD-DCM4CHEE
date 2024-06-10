@@ -10,7 +10,8 @@ $elvaShadowBorderTable: #ccc;
 $elvaTertiary: #29659B;
 $lightBlue: rgba(6, 29, 47, 0.84);
 $lightBlueNoTransparence: #2c404f;
-$blue: #061d2f;
+// $blue: #061d2f;
+$blue: #29659B;
 $hoverBlue: #5293c1;
 
 @media screen and (min-width: 600px) {
@@ -1055,8 +1056,16 @@ mat-grid-list {
   .clearform_button {
     right: 9px !important;
     top: -15px;
+    background: #EA5455;
+    color: white;
+    border: 1px solid #EA5455;
+    border-radius: 5px;
     &:hover {
       cursor: pointer;
+      background: white;
+      color: #EA5455;
+      border: 1px solid #EA5455;
+      border-radius: 5px;
     }
   }
   .filter_block {
@@ -3926,12 +3935,12 @@ dicom-list {
 .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle,
 .mat-mdc-radio-button.mat-mdc-accent.mat-mdc-radio-checked
   .mat-mdc-radio-outer-circle {
-  border-color: #061d2f;
+  border-color: #29659B;
 }
 
 .mat-radio-button.mat-accent .mat-radio-inner-circle,
 .mat-mdc-radio-button.mat-mdc-accent .mat-mdc-radio-inner-circle {
-  background-color: #061d2f;
+  background-color: #29659B;
 }
 .pointer:hover {
   cursor: pointer;
@@ -4036,6 +4045,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
     width: 100%;
     padding: 0;
     border: 1px solid #cccccc;
+    border-radius: 5px 0 0 5px;
     .long_loader {
       display: block;
       width: 0%;
@@ -4062,7 +4072,6 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
       width: 100%;
       float: left;
       padding: 30px 20px;
-      border : 1px solid #cccccc
       // -webkit-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
       // -moz-box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
       // box-shadow: 5px 3px 13px 0px rgba(68, 68, 68, 0.93);
@@ -4180,7 +4189,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
   .filter {
     .filter_block {
       border: 1px solid #cccccc;
-      margin-right: 2px;
+      margin-right: 0px;
       margin-bottom: -1px;
       &.space_filler {
         width: auto;

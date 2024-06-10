@@ -4,7 +4,7 @@
   .input_field {
     display: grid;
     grid-template-columns: auto 26px;
-    width: 90%;
+    width: 100%;
     input {
       border: 1px solid #ccc;
       border-radius: 5px;
@@ -51,10 +51,9 @@
   .dialog {
     position: absolute;
     background: white;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
     padding: 20px;
-    -webkit-box-shadow: 3px 4px 8px #cccccc;
-    -moz-box-shadow: 3px 4px 8px #cccccc;
-    box-shadow: 3px 4px 8px #cccccc;
     z-index: 1001;
     .dialog_block {
       margin-bottom: 10px;
