@@ -1,7 +1,7 @@
 // $backgroundColor:rgba(6, 29, 47, 0.84);
 $backgroundColor: #ffffff;
 $backgroundElvaPrimary: #29659b;
-$elvaPrimary: #29659b;
+
 .range_picker {
   position: relative;
   height: 30px;
@@ -33,7 +33,7 @@ $elvaPrimary: #29659b;
       vertical-align: middle;
       line-height: 26px;
       top: 0;
-      background: $elvaPrimary;
+      background: $backgroundElvaPrimary;
       border-radius: 5px;
       &:hover {
         cursor: pointer;
