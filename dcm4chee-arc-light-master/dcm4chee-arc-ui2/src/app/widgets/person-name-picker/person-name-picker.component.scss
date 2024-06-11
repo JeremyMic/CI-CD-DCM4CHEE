@@ -35,7 +35,7 @@
       span.glyphicon-remove {
         display: none;
         position: absolute;
-        right: 3px;
+        right: 15px;
         top: 7px;
         background: transparent;
         color: black;
@@ -75,8 +75,6 @@
     display: grid;
     grid-template-columns: 90px 10px 90px 10px 90px 10px 60px 10px 60px;
     float: left;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
     span {
       display: flex;
       justify-content: center;
@@ -89,8 +87,8 @@
         position: relative;
         background: white;
         color: black;
-        border: 1px solid #cccccc;
-        border-radius: 5px;
+        // border: 1px solid #cccccc;
+        // border-radius: 5px;
       }
       &:hover .input_block span.glyphicon-remove {
         display: block;

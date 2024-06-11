@@ -89,7 +89,7 @@ ul.nav#mainmenu {
     background: transparent;
     color: white;
     width: 100%;
-    padding: 10px 0 10px 0;
+    display: flex;
     border-top: 1px solid white;
     &:last-child {
       border-bottom: 1px solid white;
@@ -101,6 +101,7 @@ ul.nav#mainmenu {
       height: 50px;
       display: flex;
       align-items: center;
+      justify-content : space-evenly;
     }
     a:hover {
       background: transparent;
@@ -609,6 +610,7 @@ device and create an other one with the new name*/
     }
     h4 {
       // float: left;
+      margin: 20px 0 0 0;
       display: inline-block;
       // width: 90%;
     }
@@ -617,24 +619,23 @@ device and create an other one with the new name*/
     }
     .close {
       margin-right: 10px;
-      color: white;
     }
     .close:hover {
-      color: white;
+      color: #ea5455;
     }
     &.info {
-      border-color: #E3F7FC;
-      color: #52CDEC;
-      background: url(../img/info.png);
-      background-color: #E3F7FC;
+      border-color: #e3f7fc;
+      color: #52cdec;
+      background: url(../img/info.svg);
+      background-color: #e3f7fc;
       background-size: 55px;
       background-position: 15px center;
       background-repeat: no-repeat;
       a {
-        color: #52CDEC;
+        color: #52cdec;
       }
       &:hover {
-        background-color: #E3F7FC;
+        background-color: #e3f7fc;
       }
     }
     &.error {
@@ -642,14 +643,14 @@ device and create an other one with the new name*/
       background-size: 55px;
       background-position: 15px center;
       background-repeat: no-repeat;
-      background-color: #FBE3E4;
-      border-color: #FBE3E4;
-      color: #EA5455;
+      background-color: #fbe3e4;
+      border-color: #fbe3e4;
+      color: #ea5455;
       a {
-        color: #EA5455;
+        color: #ea5455;
       }
       &:hover {
-        background-color: #FBE3E4;
+        background-color: #fbe3e4;
       }
     }
     &.warning {
@@ -657,14 +658,14 @@ device and create an other one with the new name*/
       background-size: 55px;
       background-position: 15px center;
       background-repeat: no-repeat;
-      background-color: #FFF6E1;
-      border-color: #FFF6E1;
-      color: #F09C2F;
+      background-color: #fff6e1;
+      border-color: #fff6e1;
+      color: #f09c2f;
       a {
-        color: #F09C2F;
+        color: #f09c2f;
       }
       &:hover {
-        background-color: #FFF6E1;
+        background-color: #fff6e1;
       }
     }
     &:hover {
@@ -2090,6 +2091,7 @@ app-studies {
   input,
   select {
     border: 1px solid #ccc;
+    border-radius: 5px;
   }
   input {
     padding: 3px 7px;

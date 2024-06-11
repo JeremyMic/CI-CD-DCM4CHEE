@@ -4,15 +4,15 @@
 @import "@angular/material/prebuilt-themes/deeppurple-amber.css";
 
 $elvaLoading: #2fa6c1;
-$elvaPrimary: #29659B;
-$elvaSecondaryLight1: #3E8DD8;
+$elvaPrimary: #29659b;
+$elvaSecondaryLight1: #3e8dd8;
 $elvaShadowBorderTable: #ccc;
-$elvaTertiary: #29659B;
+$elvaTertiary: #29659b;
 $lightBlue: rgba(6, 29, 47, 0.84);
 $lightBlueNoTransparence: #2c404f;
 // $blue: #061d2f;
-$blue: #29659B;
-$red: #EA5455;
+$blue: #29659b;
+$red: #ea5455;
 $hoverBlue: #5293c1;
 
 @media screen and (min-width: 600px) {
@@ -85,7 +85,7 @@ $hoverBlue: #5293c1;
             border-radius: 0px;
             border: none;
             &.active {
-              color: white
+              color: white;
             }
           }
         }
@@ -1059,13 +1059,13 @@ mat-grid-list {
     top: -15px;
     background: white;
     color: $red;
-    border: 1px solid #EA5455;
+    border: 1px solid #ea5455;
     border-radius: 5px;
     &:hover {
       cursor: pointer;
       background: $red;
       color: white;
-      border: 1px solid #EA5455;
+      border: 1px solid #ea5455;
       border-radius: 5px;
     }
   }
@@ -1303,8 +1303,8 @@ mat-grid-list {
   li {
     a {
       &.active {
-        background: $elvaPrimary; 
-        color: white
+        background: $elvaPrimary;
+        color: white;
       }
     }
   }
@@ -1853,7 +1853,7 @@ mat-mdc-form-field {
   h5 {
     font-size: 22px;
     font-weight: bold;
-    color: #29659B;
+    color: #29659b;
   }
 }
 .filter {
@@ -1861,7 +1861,7 @@ mat-mdc-form-field {
     width: 100%;
     float: left;
     .more {
-      background: #29659B;
+      background: #29659b;
       border-radius: 5px;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -1879,7 +1879,7 @@ mat-mdc-form-field {
         float: right;
       }
       &:hover {
-        background: #29659B;
+        background: #29659b;
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -3936,12 +3936,12 @@ dicom-list {
 .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle,
 .mat-mdc-radio-button.mat-mdc-accent.mat-mdc-radio-checked
   .mat-mdc-radio-outer-circle {
-  border-color: #29659B;
+  border-color: #29659b;
 }
 
 .mat-radio-button.mat-accent .mat-radio-inner-circle,
 .mat-mdc-radio-button.mat-mdc-accent .mat-mdc-radio-inner-circle {
-  background-color: #29659B;
+  background-color: #29659b;
 }
 .pointer:hover {
   cursor: pointer;
@@ -4756,7 +4756,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
           background-repeat: no-repeat;
           background-position: center;
           &:hover {
-            background-color:$elvaPrimary;
+            background-color: $elvaPrimary;
           }
         }
       }
@@ -4775,13 +4775,13 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
       }
     }
     .clearform_button {
-      background: #EA5455;
-      border: 1px solid #EA5455;
+      background: white;
+      border: 1px solid $red;
       border-radius: 5px;
-      color: white;
+      color: $red;
       ul li:hover {
-        color: #EA5455;
-        background: white;
+        color: white;
+        background: $red;
       }
     }
     .btn-default.submit {
@@ -4982,7 +4982,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
           }
         }
         .glyphicon {
-          color: #DBDADE;
+          color: #dbdade;
         }
       }
     }

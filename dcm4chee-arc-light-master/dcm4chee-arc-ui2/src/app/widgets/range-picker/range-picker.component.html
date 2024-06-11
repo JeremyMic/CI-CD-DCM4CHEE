@@ -200,6 +200,16 @@
                 <li (click)="SplitStudyDateRange = ''" class="glyphicon glyphicon-remove duration_buttons"></li>
                 <li (click)="showDurationPaicker = !showDurationPaicker" class="duration_buttons"></li>
             </ul>
+            
+            <ul class="interval" *ngIf="!onlySingleMode">
+                <li class="range" [ngClass]="{'active':mode==='range'}" (click)="changeMode('range')" i18n="@@between">Between</li>
+                <li *ngIf="onlyTime" class="single" [ngClass]="{'active':mode==='single'}" (click)="changeMode('single')" i18n-title="@@specific_time" title="Specific Time" i18n="@@spec_time">Spec. Time</li>
+                <li *ngIf="!onlyTime" class="single" [ngClass]="{'active':mode==='single'}" (click)="changeMode('single')" i18n="@@single_date">Single Date</li>
+                <li class="rightOpen" [ngClass]="{'active':mode==='rightOpen'}" (click)="changeMode('rightOpen')" i18n="@@after">After</li>
+                <li class="leftOpen" [ngClass]="{'active':mode==='leftOpen'}" (click)="changeMode('leftOpen')" i18n="@@before">Before</li>
+            </ul>
+            <!--        <div class="right">
+                    </div>-->
             <div class="include_time_block" *ngIf="!defaultTime">
                 <label *ngIf="!onlyTime && !onlyDate">
                     <input type="checkbox" [(ngModel)]="includeTime" (change)="toggleTime()"> <ng-container i18n="@@include_time">Include Time</ng-container>
@@ -213,16 +223,8 @@
                 <div class="infinit" *ngIf="!(mode === 'range' || mode === 'leftOpen') && mode != 'single'">&infin;</div>
                 <time-picker *ngIf="mode === 'single'"  [model]="singleTimeModel" cohereMode="true" (onValueSet)="onTimeSet('singleTimeModel', $event)" placeholder="(hh:mm:ss)"></time-picker>
             </div>
-            <ul class="interval" *ngIf="!onlySingleMode">
-                <li class="range" [ngClass]="{'active':mode==='range'}" (click)="changeMode('range')" i18n="@@between">Between</li>
-                <li *ngIf="onlyTime" class="single" [ngClass]="{'active':mode==='single'}" (click)="changeMode('single')" i18n-title="@@specific_time" title="Specific Time" i18n="@@spec_time">Spec. Time</li>
-                <li *ngIf="!onlyTime" class="single" [ngClass]="{'active':mode==='single'}" (click)="changeMode('single')" i18n="@@single_date">Single Date</li>
-                <li class="rightOpen" [ngClass]="{'active':mode==='rightOpen'}" (click)="changeMode('rightOpen')" i18n="@@after">After</li>
-                <li class="leftOpen" [ngClass]="{'active':mode==='leftOpen'}" (click)="changeMode('leftOpen')" i18n="@@before">Before</li>
-            </ul>
-            <!--        <div class="right">
-                    </div>-->
-            <button (click)="setRange()" i18n="@@Set">Set</button>
+
+            <button class="set" (click)="setRange()" i18n="@@Set">Set</button>
             <button class="clear" (click)="clear()" i18n="@@Clear">Clear</button>
         </div>
     </ng-container>

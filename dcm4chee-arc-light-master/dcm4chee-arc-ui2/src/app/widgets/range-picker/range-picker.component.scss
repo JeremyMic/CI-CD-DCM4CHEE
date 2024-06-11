@@ -1,5 +1,6 @@
 // $backgroundColor:rgba(6, 29, 47, 0.84);
 $backgroundColor:#FFFFFF;
+$backgroundElvaPrimary:#29659B;
 $elvaPrimary: #29659B;
 .range_picker{
   position: relative;
@@ -67,7 +68,6 @@ $elvaPrimary: #29659B;
       min-height: 3px;
       label{
         background: $backgroundColor;
-        color: white;
         width: calc(100% - 4px);
         line-height: 30px;
         margin: 5px 2px;
@@ -286,9 +286,20 @@ $elvaPrimary: #29659B;
         background-color: $backgroundColor;
       }
     }
-    button{
+    button.set{
+      background: $backgroundElvaPrimary;
+      color: #ffffff;
+      border: 0;
+      width: 24%;
+      float: right;
+      &.clear{
+        margin-right:4px;
+      }
+    }
+    button.clear{
       background: $backgroundColor;
-      color: white;
+      border: 1px solid #29659B;
+      color: #29659b;
       border: 0;
       width: 24%;
       float: right;
