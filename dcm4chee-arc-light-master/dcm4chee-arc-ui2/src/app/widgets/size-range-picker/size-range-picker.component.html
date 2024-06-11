@@ -17,7 +17,7 @@
                 <mat-option *ngFor="let option of units" value="{{option.value}}" title="{{option.description || option.title}}">{{option.text}}</mat-option>
             </mat-select>
         </div>
-        <button (click)="setRange()" i18n="@@Set">Set</button>
+        <button class ="set" (click)="setRange()" i18n="@@Set">Set</button>
         <button class="clear" (click)="clear()" i18n="@@Clear">Clear</button>
     </div>
 </div>

@@ -90,21 +90,27 @@ $backgroundColorHover: rgba(28, 36, 43, 1);
       margin-left: 10px;
       padding-left: 10px;
     }
-    button {
-      background: $backgroundColor;
-      color: white;
-      border: 0;
+    button.set {
+      background: $backgroundElvaPrimary;
+      color: #ffffff;
+      border-radius: 5px;
+      padding: 2px;
       width: 24%;
       float: right;
       &.clear {
         margin-right: 4px;
       }
-      &:hover {
-        background: $backgroundColorHover;
-      }
     }
-    button {
-      width: calc(30% - 13px);
+    button.clear {
+      background: $backgroundColor;
+      border: 1px solid #29659b;
+      border-radius: 5px;
+      color: #29659b;
+      width: 24%;
+      float: right;
+      &.clear {
+        margin-right: 4px;
+      }
     }
   }
   .close {

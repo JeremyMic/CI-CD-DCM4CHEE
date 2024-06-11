@@ -101,7 +101,8 @@ ul.nav#mainmenu {
       height: 50px;
       display: flex;
       align-items: center;
-      justify-content : space-evenly;
+      justify-content : space-between;
+      width : 100%;
     }
     a:hover {
       background: transparent;
