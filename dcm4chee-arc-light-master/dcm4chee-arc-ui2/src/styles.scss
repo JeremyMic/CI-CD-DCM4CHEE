@@ -12,6 +12,7 @@ $lightBlue: rgba(6, 29, 47, 0.84);
 $lightBlueNoTransparence: #2c404f;
 // $blue: #061d2f;
 $blue: #29659B;
+$red: #EA5455;
 $hoverBlue: #5293c1;
 
 @media screen and (min-width: 600px) {
@@ -1056,14 +1057,14 @@ mat-grid-list {
   .clearform_button {
     right: 9px !important;
     top: -15px;
-    background: #EA5455;
-    color: white;
+    background: white;
+    color: $red;
     border: 1px solid #EA5455;
     border-radius: 5px;
     &:hover {
       cursor: pointer;
-      background: white;
-      color: #EA5455;
+      background: $red;
+      color: white;
       border: 1px solid #EA5455;
       border-radius: 5px;
     }
@@ -1302,7 +1303,7 @@ mat-grid-list {
   li {
     a {
       &.active {
-        background: $elvaPrimary;
+        background: $elvaPrimary; 
         color: white
       }
     }
@@ -2148,7 +2149,7 @@ mat-mdc-form-field {
     }
     .filter_checkbox {
       color: #777777;
-      font-style: italic;
+      font-style: normal;
       &.active {
         color: black;
       }
@@ -2167,7 +2168,7 @@ mat-mdc-form-field {
     .mat-select-trigger,
     .mat-mdc-select-trigger {
       padding-left: 7px;
-      font-style: italic;
+      font-style: normal;
     }
     .mat-select-placeholder {
       color: #777;
@@ -2527,7 +2528,7 @@ mat-mdc-form-field {
     .description {
       a {
         color: #22359f;
-        font-style: italic;
+        font-style: normal;
         text-decoration-line: underline;
       }
     }
@@ -4260,7 +4261,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
     }
     .filter_checkbox {
       color: #777777;
-      font-style: italic;
+      font-style: normal;
       &.active {
         font-style: normal;
       }
@@ -4270,7 +4271,7 @@ $backgroundHoverColor: rgba(6, 29, 47, 0.84);
     }
     .mat-select-placeholder,
     .mat-mdc-select-placeholder {
-      font-style: italic;
+      font-style: normal;
     }
   }
   .filter_line {
@@ -5168,7 +5169,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
 code {
   background: black;
   color: white;
-  font-style: italic;
+  font-style: normal;
   padding: 2px 7px;
 }
 

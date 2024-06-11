@@ -75,6 +75,8 @@
     display: grid;
     grid-template-columns: 90px 10px 90px 10px 90px 10px 60px 10px 60px;
     float: left;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
     span {
       display: flex;
       justify-content: center;
