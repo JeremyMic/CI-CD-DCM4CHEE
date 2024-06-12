@@ -119,7 +119,7 @@ ul.nav#mainmenu {
     }
     a {
       background: transparent;
-      color: #4b465c;
+      color: #4B465C;
       border-bottom: 1px solid #dcdcdc;
       height: 50px;
       display: flex;
@@ -135,9 +135,7 @@ ul.nav#mainmenu {
       outline: none;
     }
     a.active {
-      background: #29659b;
       font-weight: bold;
-      color: white;
     }
 
     // &.icon-moni {
@@ -160,19 +158,19 @@ ul.nav#mainmenu {
     // }
 
     img.icon-moni {
-      background: url(../icon/monitor.svg);
+      background: url(../icon/monitor.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
     img.icon-nav {
-      background: url(../icon/navigation.svg);
+      background: url(../icon/navigation.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
     img.icon-sett {
-      background: url(../icon/settings.svg);
+      background: url(../icon/settings.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
@@ -236,19 +234,19 @@ ul.nav#mainmenu {
     // }
 
     img.icon-moni {
-      background: url(../icon/monitor.svg);
+      background: url(../icon/monitor.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
     img.icon-nav {
-      background: url(../icon/navigation.svg);
+      background: url(../icon/navigation.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
     img.icon-sett {
-      background: url(../icon/settings.svg);
+      background: url(../icon/settings.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
