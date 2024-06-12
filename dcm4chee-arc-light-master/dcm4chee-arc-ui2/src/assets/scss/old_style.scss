@@ -102,15 +102,10 @@ ul.nav#mainmenu {
       height: 50px;
       display: flex;
       align-items: center;
-      justify-content : space-between;
       width : 100%;
 
-      label.icon-monitor{
-        background: url(../icon/monitor.svg);
-        background-size: 24px;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin-right: 2px;
+      p{
+        padding-left: 2px;
       }
     }
     a:hover {
@@ -125,11 +120,27 @@ ul.nav#mainmenu {
       font-weight: bold;
       color: white;
     }
-    &.icon-nav{
-      background: url(../icon/navigation.svg);
-      background-size: 24px;
-      background-position: left;
-      background-repeat: no-repeat;
+    div{
+      div{
+        &.icon-moni{
+          background: url(../icon/monitor.svg);
+          background-size: 24px;
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+        &.icon-nav{
+          background: url(../icon/navigation.svg);
+          background-size: 24px;
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+        &.icon-sett{
+          background: url(../icon/settings.svg);
+          background-size: 24px;
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+      }
     }
   }
   li.active {
@@ -147,6 +158,29 @@ ul.nav#mainmenu {
       outline: none;
       background: transparent;
     }
+    div{
+      div{
+        &.icon-moni{
+          background: url(../icon/monitor.svg);
+          background-size: 24px;
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+        &.icon-nav{
+          background: url(../icon/navigation.svg);
+          background-size: 24px;
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+        &.icon-sett{
+          background: url(../icon/settings.svg);
+          background-size: 24px;
+          background-position: left;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+    
   }
   .glyphicon.glyphicon-align-justify {
     background-position: left center;
@@ -162,11 +196,11 @@ ul.nav#mainmenu {
     padding-bottom: 10px;
     padding-top: 10px;
 
-    h3{
+    p{
       font-size : 11px;
+      color: #717171;
     }
   }
-  
 }
 .toggle-button.out {
   background: white;

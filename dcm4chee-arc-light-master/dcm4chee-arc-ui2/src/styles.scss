@@ -860,11 +860,11 @@ p-calendar {
   }
 }
 .checkbox_button {
-  // padding-left: 1vw;
   color: #333333;
-  border: 1px solid #cccccc;
   display: flex;
   justify-content: space-around;
+  border-radius: 5px;
+  align-items: center;
   &.active {
     background: $elvaPrimary;
     color: white;
@@ -4812,7 +4812,7 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
     }
     .csv_button {
       background: $elvaPrimary;
-      color: rgba(255, 255, 255, 0.9);
+      border-radius: 5px;
       .custom_icon {
         &.csv_icon {
           background-image: url("assets/img/csv_icon.png");
@@ -4822,7 +4822,6 @@ $backgroundHoverColorWhite: rgba(255, 255, 255, 0.8);
         }
       }
       &:hover {
-        background: rgb(22, 29, 35);
         color: white;
         .custom_icon {
           &.csv_icon {
