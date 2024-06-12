@@ -74,20 +74,24 @@
         <p>MENU</p>
     </label>
     <!--<li (click)="showMenu = false;"><a routerLink="queues" routerLinkActive="active">Queues</a></li>-->
-    <li class="menu-item icon-moni" (click)="showMenu = false;" [permission]="{id:'menu-monitoring',param:'visible'}">
+    <li class="menu-item " (click)="showMenu = false;" [permission]="{id:'menu-monitoring',param:'visible'}">
         <div style="display:flex;">
-            <div></div>
-            <div>
+            <div style="justify-content: center; align-items: center; width: 25%;">
+                <img src="/src/assets/icon/monitor.svg" alt="">
+            </div>
+            <div style="justify-content: center; align-items: center; width: 25%;">
                 <a routerLink="monitoring/associations" routerLinkActive="active" i18n="@@menu.monitoring"> 
                     Monitoring
                 </a>
             </div>
         </div>
     </li>
-    <li class="menu-item icon-nav" (click)="showMenu = false;" [permission]="{id:'menu-study',param:'visible'}">
-        <div style="display:flex;">
-            <div></div>
-            <div>
+    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-study',param:'visible'}">
+        <div style="justify-content: center; align-items: center; width: 25%;">
+            <div style="justify-content: center; align-items: center;">
+                <img src="/src/assets/icon/navigation.svg" alt="" >
+            </div>
+            <div style="justify-content: center; align-items: center; width: 25%;">
                 <a routerLink="study/study" routerLinkActive="active" i18n="@@menu.navigation">
                     Navigation
                </a>
@@ -95,10 +99,12 @@
         </div>   
     </li>
     <!--<li (click)="showMenu = false;" *ngIf="isRole('admin')"><a routerLink="control" routerLinkActive="active">Control</a></li>-->
-    <li class="menu-item icon-sett" (click)="showMenu = false;" [permission]="{id:'menu-configuration',param:'visible'}">
-        <div style="display:flex;">
-            <div></div>
-            <div>
+    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-configuration',param:'visible'}">
+        <div style="justify-content: center; align-items: center; width: 25%;">
+            <div style="justify-content: center; align-items: center;">
+                <img src="/src/assets/icon/settings.svg" alt="">
+            </div>
+            <div style="justify-content: center; align-items: center; width: 25%;">
                 <a routerLink="device/devicelist" routerLinkActive="active" i18n="@@menu.configuration"> 
                     Configuration
                 </a>
