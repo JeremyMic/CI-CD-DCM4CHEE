@@ -98,6 +98,24 @@ ul.nav#mainmenu {
     div {
       display: flex;
       width: 100%;
+      // &.icon-moni {
+      //   background: url(../icon/monitor.svg);
+      //   background-size: 24px;
+      //   background-position: left;
+      //   background-repeat: no-repeat;
+      // }
+      // &.icon-nav {
+      //   background: url(../icon/navigation.svg);
+      //   background-size: 24px;
+      //   background-position: left;
+      //   background-repeat: no-repeat;
+      // }
+      // &.icon-sett {
+      //   background: url(../icon/settings.svg);
+      //   background-size: 24px;
+      //   background-position: left;
+      //   background-repeat: no-repeat;
+      // }
     }
     a {
       background: transparent;
@@ -122,19 +140,38 @@ ul.nav#mainmenu {
       color: white;
     }
 
-    &.icon-moni {
+    // &.icon-moni {
+    //   background: url(../icon/monitor.svg);
+    //   background-size: 24px;
+    //   background-position: left;
+    //   background-repeat: no-repeat;
+    // }
+    // &.icon-nav {
+    //   background: url(../icon/navigation.svg);
+    //   background-size: 24px;
+    //   background-position: left;
+    //   background-repeat: no-repeat;
+    // }
+    // &.icon-sett {
+    //   background: url(../icon/settings.svg);
+    //   background-size: 24px;
+    //   background-position: left;
+    //   background-repeat: no-repeat;
+    // }
+
+    img.icon-moni {
       background: url(../icon/monitor.svg);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
-    &.icon-nav {
+    img.icon-nav {
       background: url(../icon/navigation.svg);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
-    &.icon-sett {
+    img.icon-sett {
       background: url(../icon/settings.svg);
       background-size: 24px;
       background-position: left;
@@ -146,6 +183,24 @@ ul.nav#mainmenu {
     div {
       display: flex;
       width: 100%;
+      // &.icon-moni {
+      //   background: url(../icon/monitor.svg);
+      //   background-size: 24px;
+      //   background-position: left;
+      //   background-repeat: no-repeat;
+      // }
+      // &.icon-nav {
+      //   background: url(../icon/navigation.svg);
+      //   background-size: 24px;
+      //   background-position: left;
+      //   background-repeat: no-repeat;
+      // }
+      // &.icon-sett {
+      //   background: url(../icon/settings.svg);
+      //   background-size: 24px;
+      //   background-position: left;
+      //   background-repeat: no-repeat;
+      // }
     }
     a {
       background: transparent;
@@ -161,19 +216,38 @@ ul.nav#mainmenu {
       background: transparent;
     }
 
-    &.icon-moni {
+    // &.icon-moni {
+    //   background: url(../icon/monitor.svg);
+    //   background-size: 24px;
+    //   background-position: left;
+    //   background-repeat: no-repeat;
+    // }
+    // &.icon-nav {
+    //   background: url(../icon/navigation.svg);
+    //   background-size: 24px;
+    //   background-position: left;
+    //   background-repeat: no-repeat;
+    // }
+    // &.icon-sett {
+    //   background: url(../icon/settings.svg);
+    //   background-size: 24px;
+    //   background-position: left;
+    //   background-repeat: no-repeat;
+    // }
+
+    img.icon-moni {
       background: url(../icon/monitor.svg);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
-    &.icon-nav {
+    img.icon-nav {
       background: url(../icon/navigation.svg);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
-    &.icon-sett {
+    img.icon-sett {
       background: url(../icon/settings.svg);
       background-size: 24px;
       background-position: left;
