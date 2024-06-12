@@ -90,6 +90,7 @@ ul.nav#mainmenu {
     color: white;
     width: 100%;
     display: flex;
+    
     border-top: 1px solid white;
     &:last-child {
       border-bottom: 1px solid white;
@@ -103,6 +104,14 @@ ul.nav#mainmenu {
       align-items: center;
       justify-content : space-between;
       width : 100%;
+
+      label.icon-monitor{
+        background: url(../icon/monitor.svg);
+        background-size: 24px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-right: 2px;
+      }
     }
     a:hover {
       background: transparent;
@@ -115,6 +124,12 @@ ul.nav#mainmenu {
       background: #29659b;
       font-weight: bold;
       color: white;
+    }
+    &.icon-nav{
+      background: url(../icon/navigation.svg);
+      background-size: 24px;
+      background-position: left;
+      background-repeat: no-repeat;
     }
   }
   li.active {
@@ -137,15 +152,21 @@ ul.nav#mainmenu {
     background-position: left center;
     left: 10%;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: #8a878e;
   }
-  a.icon-monitor{
-      background: url(../icon/monitor.svg);
-      background-size: 24px;
-      background-position: center;
-      background-repeat: no-repeat;
+
+  .side-menu{
+    height : 14px;
+    width : 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    h3{
+      font-size : 11px;
+    }
   }
+  
 }
 .toggle-button.out {
   background: white;
@@ -2421,9 +2442,11 @@ div[tooltip] {
       max-height: 300px;
       overflow-y: scroll;
       width: 34%;
-      -moz-box-shadow: 4px 6px 16px 5px #ccc;
-      -webkit-box-shadow: 4px 6px 16px 5px #ccc;
-      box-shadow: 4px 6px 16px 5px #ccc;
+      // -moz-box-shadow: 4px 6px 16px 5px #ccc;
+      // -webkit-box-shadow: 4px 6px 16px 5px #ccc;
+      // box-shadow: 4px 6px 16px 5px #ccc;
+      border: 1px solid #ccc;
+      border-radius: 10px;
       z-index: 99999;
       position: absolute;
       background: white;

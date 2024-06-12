@@ -727,19 +727,19 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,-StudyDate,-StudyTime',
-                label: $localize `:@@orderby.study_alph_asc:<label class="order_label">Study</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby.study_alph_asc:<label class="order_label">Study</label>`,
                 mode: 'study',
                 title:$localize `:@@query_studies:Query Studies`
             },
             {
                 value: '-PatientName,-StudyDate,-StudyTime',
-                label: $localize `:@@orderby.study_name_asc:<label class="order_label">Study</label><span class=\"orderbynamedesc\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby.study_name_asc:<label class="order_label">Study</label>`,
                 mode: 'study',
                 title:$localize `:@@query_studies:Query Studies`
             },
             {
                 value: 'PatientName,StudyDate,StudyTime',
-                label: $localize `:@@orderby.study_alph_desc:<label class="order_label">Study</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby.study_alph_desc:<label class="order_label">Study</label>`,
                 mode: 'study',
                 title:$localize `:@@query_studies:Query Studies`
             },
@@ -763,7 +763,7 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,-ScheduledProcedureStepSequence.ScheduledProcedureStepStartDate,-ScheduledProcedureStepSequence.ScheduledProcedureStepStartTime',
-                label: $localize `:@@orderby.mwl_alph_asc:<label class="order_label">MWL</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby.mwl_alph_asc:<label class="order_label">MWL</label>`,
                 mode: 'mwl',
                 title:$localize `:@@query_mwl:Query MWL`
             },
@@ -775,7 +775,7 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,ScheduledProcedureStepSequence.ScheduledProcedureStepStartDate,ScheduledProcedureStepSequence.ScheduledProcedureStepStartTime',
-                label: $localize `:@@orderby.mwl_alph_desc:<label class="order_label">MWL</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby.mwl_alph_desc:<label class="order_label">MWL</label>`,
                 mode: 'mwl',
                 title:$localize `:@@query_mwl:Query MWL`
             },
@@ -805,7 +805,7 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,-PerformedProcedureStepStartDate,-PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby.mpps_alph_asc:<label class="order_label">MPPS</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby.mpps_alph_asc:<label class="order_label">MPPS</label>`,
                 mode: 'mpps',
                 title:$localize `:@@query_mpps:Query MPPS`
             },
@@ -817,7 +817,7 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,PerformedProcedureStepStartDate,PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby.mpps_alph_desc:<label class="order_label">MPPS</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby.mpps_alph_desc:<label class="order_label">MPPS</label>`,
                 mode: 'mpps',
                 title:$localize `:@@query_mpps:Query MPPS`
             },
@@ -834,13 +834,13 @@ export class Globalvar {
         return [
             {
                 value: 'PatientName',
-                label: $localize `:@@orderby_new.order_a_z:<label class="order_label">A-Z</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span>`,
+                label: $localize `:@@orderby_new.order_a_z:<label class="order_label">A-Z</label>`,
                 mode: 'patient',
                 title:$localize `:@@query_patients_pname_asc:Patient Name ascending alphabetically`
             },
             {
                 value: '-PatientName',
-                label: $localize `:@@orderby_new.z_a:<label class="order_label">Z-A</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span>`,
+                label: $localize `:@@orderby_new.z_a:<label class="order_label">Z-A</label>`,
                 mode: 'patient',
                 title:$localize `:@@query_patients_pname_desc:Patient Name descending alphabetically`
             },
@@ -859,25 +859,25 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,-StudyDate,-StudyTime',
-                label: $localize `:@@orderby_new.a_z_new_old:<label class="order_label">A-Z, New to Old</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby_new.a_z_new_old:<label class="order_label">A-Z, New to Old</label>`,
                 mode: 'study',
                 title:$localize `:@@query_studies_pname_asc_study_datetime_new_old:Patient Name ascending, New to Old - StudyDateTime`
             },
             {
                 value: '-PatientName,-StudyDate,-StudyTime',
-                label: $localize `:@@orderby_new.z_a_new_old:<label class="order_label">Z-A, New to Old</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby_new.z_a_new_old:<label class="order_label">Z-A, New to Old</label>`,
                 mode: 'study',
                 title:$localize `:@@query_studies_pname_desc_study_datetime_new_old:Patient Name descending, New to Old - StudyDateTime`
             },
             {
                 value: 'PatientName,StudyDate,StudyTime',
-                label: $localize `:@@orderby_new.a_z_old_new:<label class="order_label">A-Z, Old to New</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby_new.a_z_old_new:<label class="order_label">A-Z, Old to New</label>`,
                 mode: 'study',
                 title:$localize `:@@query_studies_pname_asc_study_datetime_old_new:Patient Name ascending, Old to New - StudyDateTime`
             },
             {
                 value: '-PatientName,StudyDate,StudyTime',
-                label: $localize `:@@orderby_new.z_a_old_new:<label class="order_label">Z-A, Old to New</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby_new.z_a_old_new:<label class="order_label">Z-A, Old to New</label>`,
                 mode: 'study',
                 title:$localize `:@@query_studies_pname_desc_study_datetime_old_new:Patient Name descending, Old to New - StudyDateTime`
             },
@@ -895,25 +895,25 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,-PerformedProcedureStepStartDate,-PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby_new.a_z_new_old:<label class="order_label">A-Z, New to Old</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby_new.a_z_new_old:<label class="order_label">A-Z, New to Old</label>`,
                 mode: 'series',
                 title:$localize `:@@query_series_mpps_pname_asc_pps_new_old:Patient Name ascending, New to Old - PerformedProcedureStepStartDateTime`
             },
             {
                 value: '-PatientName,-PerformedProcedureStepStartDate,-PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby_new.z_a_new_old:<label class="order_label">Z-A, New to Old</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby_new.z_a_new_old:<label class="order_label">Z-A, New to Old</label>`,
                 mode: 'series',
                 title:$localize `:@@query_series_mpps_pname_desc_pps_new_old:Patient Name descending, New to Old - PerformedProcedureStepStartDateTime`
             },
             {
                 value: 'PatientName,PerformedProcedureStepStartDate,PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby_new.a_z_old_new:<label class="order_label">A-Z, Old to New</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby_new.a_z_old_new:<label class="order_label">A-Z, Old to New</label>`,
                 mode: 'series',
                 title:$localize `:@@query_series_mpps_pname_asc_pps_old_new:Patient Name ascending, Old to New - PerformedProcedureStepStartDateTime`
             },
             {
                 value: '-PatientName,PerformedProcedureStepStartDate,PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby_new.z_a_old_new:<label class="order_label">Z-A, Old to New</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby_new.z_a_old_new:<label class="order_label">Z-A, Old to New</label>`,
                 mode: 'series',
                 title:$localize `:@@query_series_mpps_pname_desc_pps_old_new:Patient Name descending, Old to New - PerformedProcedureStepStartDateTime`
             },
@@ -931,25 +931,25 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,-ScheduledProcedureStepSequence.ScheduledProcedureStepStartDate,-ScheduledProcedureStepSequence.ScheduledProcedureStepStartTime',
-                label: $localize `:@@orderby_new.a_z_new_old:<label class="order_label">A-Z, New to Old</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby_new.a_z_new_old:<label class="order_label">A-Z, New to Old</label>`,
                 mode: 'mwl',
                 title:$localize `:@@query_mwls_pname_asc_sps_new_old:Patient Name ascending, New to Old - ScheduledProcedureStepStartDateTime`
             },
             {
                 value: '-PatientName,-ScheduledProcedureStepSequence.ScheduledProcedureStepStartDate,-ScheduledProcedureStepSequence.ScheduledProcedureStepStartTime',
-                label: $localize `:@@orderby_new.z_a_new_old:<label class="order_label">Z-A, New to Old</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby_new.z_a_new_old:<label class="order_label">Z-A, New to Old</label>`,
                 mode: 'mwl',
                 title:$localize `:@@query_mwls_pname_desc_sps_new_old:Patient Name descending, New to Old - ScheduledProcedureStepStartDateTime`
             },
             {
                 value: 'PatientName,ScheduledProcedureStepSequence.ScheduledProcedureStepStartDate,ScheduledProcedureStepSequence.ScheduledProcedureStepStartTime',
-                label: $localize `:@@orderby_new.a_z_old_new:<label class="order_label">A-Z, Old to New</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby_new.a_z_old_new:<label class="order_label">A-Z, Old to New</label>`,
                 mode: 'mwl',
                 title:$localize `:@@query_mwls_pname_asc_sps_old_new:Patient Name ascending, Old to New - ScheduledProcedureStepStartDateTime`
             },
             {
                 value: '-PatientName,ScheduledProcedureStepSequence.ScheduledProcedureStepStartDate,ScheduledProcedureStepSequence.ScheduledProcedureStepStartTime',
-                label: $localize `:@@orderby_new.z_a_old_new:<label class="order_label">Z-A, Old to New</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby_new.z_a_old_new:<label class="order_label">Z-A, Old to New</label>`,
                 mode: 'mwl',
                 title:$localize `:@@query_mwls_pname_desc_sps_old_new:Patient Name descending, Old to New - ScheduledProcedureStepStartDateTime`
             },
@@ -967,25 +967,25 @@ export class Globalvar {
             },
             {
                 value: 'PatientName,-PerformedProcedureStepStartDate,-PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby_new.a_z_new_old:<label class="order_label">A-Z, New to Old</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby_new.a_z_new_old:<label class="order_label">A-Z, New to Old</label>`,
                 mode: 'mpps',
                 title:$localize `:@@query_series_mpps_pname_asc_pps_new_old:Patient Name ascending, New to Old - PerformedProcedureStepStartDateTime`
             },
             {
                 value: '-PatientName,-PerformedProcedureStepStartDate,-PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby_new.z_a_new_old:<label class="order_label">Z-A, New to Old</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span><span class=\"orderbydatedesc\"></span>`,
+                label: $localize `:@@orderby_new.z_a_new_old:<label class="order_label">Z-A, New to Old</label>`,
                 mode: 'mpps',
                 title:$localize `:@@query_series_mpps_pname_desc_pps_new_old:Patient Name descending, New to Old - PerformedProcedureStepStartDateTime`
             },
             {
                 value: 'PatientName,PerformedProcedureStepStartDate,PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby_new.a_z_old_new:<label class="order_label">A-Z, Old to New</label><span class=\"glyphicon glyphicon-sort-by-alphabet\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby_new.a_z_old_new:<label class="order_label">A-Z, Old to New</label>`,
                 mode: 'mpps',
                 title:$localize `:@@query_series_mpps_pname_asc_pps_old_new:Patient Name ascending, Old to New - PerformedProcedureStepStartDateTime`
             },
             {
                 value: '-PatientName,PerformedProcedureStepStartDate,PerformedProcedureStepStartTime',
-                label: $localize `:@@orderby_new.z_a_old_new:<label class="order_label">Z-A, Old to New</label><span class=\"glyphicon glyphicon-sort-by-alphabet-alt\"></span><span class=\"orderbydateasc\"></span>`,
+                label: $localize `:@@orderby_new.z_a_old_new:<label class="order_label">Z-A, Old to New</label>`,
                 mode: 'mpps',
                 title:$localize `:@@query_series_mpps_pname_desc_pps_old_new:Patient Name descending, Old to New - PerformedProcedureStepStartDateTime`
             },

@@ -299,9 +299,6 @@ $backgroundElvaPrimary: #29659b;
       padding: 2px;
       width: 24%;
       float: right;
-      &.clear {
-        margin-right: 4px;
-      }
     }
     button.clear {
       background: $backgroundColor;
@@ -310,8 +307,11 @@ $backgroundElvaPrimary: #29659b;
       color: #29659b;
       width: 24%;
       float: right;
-      &.clear {
-        margin-right: 4px;
+      margin-right: 4px;
+      &:hover {
+        background-color: #29659b;
+        color: #ffffff;
+        cursor: pointer;
       }
     }
   }

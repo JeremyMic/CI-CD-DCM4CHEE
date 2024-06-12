@@ -50,14 +50,14 @@
 }
 .input_block{
     input{
-        width:calc(100% - 26px);
+        width: 80%;
         float: left;
     }
     .glyphicon-time{
         display: inline-block;
         width:26px;
         height:26px;
-        background-color: rgba(6, 29, 47, 0.84);
+        background-color: #29659b;
         color: white;
         text-align: center;
         float: right;

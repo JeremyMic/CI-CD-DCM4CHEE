@@ -860,9 +860,11 @@ p-calendar {
   }
 }
 .checkbox_button {
-  padding-left: 1vw;
+  // padding-left: 1vw;
   color: #333333;
   border: 1px solid #cccccc;
+  display: flex;
+  justify-content: space-around;
   &.active {
     background: $elvaPrimary;
     color: white;

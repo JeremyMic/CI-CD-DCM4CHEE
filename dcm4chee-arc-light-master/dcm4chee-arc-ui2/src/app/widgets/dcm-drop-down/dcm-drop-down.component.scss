@@ -55,9 +55,7 @@
     }
   }
   .select{
-    -webkit-box-shadow: 2px 2px 11px 0px #333;
-    -moz-box-shadow: 2px 2px 11px 0px #333;
-    box-shadow: 2px 2px 11px 0px #333;
+    border-radius: 10px;
     position: fixed;
     background: white;
     z-index: 99999;
@@ -100,7 +98,7 @@
       }
       li.option{
         //padding-left:15px;
-        border: 1px solid #cccccc;
+        border-bottom: 1px solid #cccccc;
         // border-bottom: 1px solid #ccc;
         display: flex;
       }
