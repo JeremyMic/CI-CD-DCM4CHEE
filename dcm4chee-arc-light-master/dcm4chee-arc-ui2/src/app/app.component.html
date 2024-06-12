@@ -71,7 +71,12 @@
 <ul id="mainmenu" class="nav slideInLeft animated" *ngIf="showMenu" (clickOutside)="closeFromOutside()" [clickOutsideExceptionClass]="'menu_button'">
     <div (click)="showMenu = false;" class="glyphicon glyphicon-align-justify toggle-button "></div>
     <!--<li (click)="showMenu = false;"><a routerLink="queues" routerLinkActive="active">Queues</a></li>-->
-    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-monitoring',param:'visible'}"><a routerLink="monitoring/associations" routerLinkActive="active" i18n="@@menu.monitoring"> <img src="../assets/icon/heart-rate-monitor.png" style="height: 24px; width: 24px;"> Monitoring</a></li>
+    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-monitoring',param:'visible'}">
+        <a routerLink="monitoring/associations" routerLinkActive="active" i18n="@@menu.monitoring"> 
+        <span class="icon-monitor"></span>
+        Monitoring
+        </a>
+    </li>
     <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-study',param:'visible'}"><a routerLink="study/study" routerLinkActive="active" i18n="@@menu.navigation"><img src="../ assets/icon/navigation.svg"> Navigation</a></li>
     <!--<li (click)="showMenu = false;" *ngIf="isRole('admin')"><a routerLink="control" routerLinkActive="active">Control</a></li>-->
     <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-configuration',param:'visible'}"><a routerLink="device/devicelist" routerLinkActive="active" i18n="@@menu.configuration"><img src="../assets/icon/settings.svg" style="height: 24px; width: 24px;"> Configuration</a></li>
