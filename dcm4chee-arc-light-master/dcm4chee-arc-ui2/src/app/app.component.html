@@ -74,19 +74,19 @@
         <p>MENU</p>
     </label>
     <!--<li (click)="showMenu = false;"><a routerLink="queues" routerLinkActive="active">Queues</a></li>-->
-    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-monitoring',param:'visible'}">
+    <li class="menu-item icon-moni" (click)="showMenu = false;" [permission]="{id:'menu-monitoring',param:'visible'}">
         <div style="display:flex;">
-            <div class="icon-moni"></div>
+            <div></div>
             <div>
                 <a routerLink="monitoring/associations" routerLinkActive="active" i18n="@@menu.monitoring"> 
                     Monitoring
-                    </a>
+                </a>
             </div>
         </div>
     </li>
-    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-study',param:'visible'}">
+    <li class="menu-item icon-nav" (click)="showMenu = false;" [permission]="{id:'menu-study',param:'visible'}">
         <div style="display:flex;">
-            <div class="icon-nav"></div>
+            <div></div>
             <div>
                 <a routerLink="study/study" routerLinkActive="active" i18n="@@menu.navigation">
                     Navigation
@@ -95,9 +95,9 @@
         </div>   
     </li>
     <!--<li (click)="showMenu = false;" *ngIf="isRole('admin')"><a routerLink="control" routerLinkActive="active">Control</a></li>-->
-    <li class="menu-item" (click)="showMenu = false;" [permission]="{id:'menu-configuration',param:'visible'}">
+    <li class="menu-item icon-sett" (click)="showMenu = false;" [permission]="{id:'menu-configuration',param:'visible'}">
         <div style="display:flex;">
-            <div class="icon-sett"></div>
+            <div></div>
             <div>
                 <a routerLink="device/devicelist" routerLinkActive="active" i18n="@@menu.configuration"> 
                     Configuration

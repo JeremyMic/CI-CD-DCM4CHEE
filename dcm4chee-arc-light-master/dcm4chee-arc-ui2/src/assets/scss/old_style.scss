@@ -95,6 +95,10 @@ ul.nav#mainmenu {
     &:last-child {
       border-bottom: 1px solid white;
     }
+    div {
+      display :flex;
+      width : 100%;
+    }
     a {
       background: transparent;
       color: #4b465c;
@@ -103,10 +107,7 @@ ul.nav#mainmenu {
       display: flex;
       align-items: center;
       width : 100%;
-
-      p{
-        padding-left: 2px;
-      }
+      margin-left : 2px;
     }
     a:hover {
       background: transparent;
@@ -120,31 +121,33 @@ ul.nav#mainmenu {
       font-weight: bold;
       color: white;
     }
-    div{
-      div{
-        &.icon-moni{
+    
+    &.icon-moni{
           background: url(../icon/monitor.svg);
           background-size: 24px;
           background-position: left;
           background-repeat: no-repeat;
-        }
-        &.icon-nav{
+    }
+    &.icon-nav{
           background: url(../icon/navigation.svg);
           background-size: 24px;
           background-position: left;
           background-repeat: no-repeat;
-        }
-        &.icon-sett{
+    }
+    &.icon-sett{
           background: url(../icon/settings.svg);
           background-size: 24px;
           background-position: left;
           background-repeat: no-repeat;
-        }
-      }
     }
+    
   }
   li.active {
     background: #29659b;
+    div {
+      display :flex;
+      width : 100%;
+    }
     a {
       background: transparent;
       //text-decoration: underline;
@@ -158,28 +161,26 @@ ul.nav#mainmenu {
       outline: none;
       background: transparent;
     }
-    div{
-      div{
-        &.icon-moni{
+    
+    &.icon-moni{
           background: url(../icon/monitor.svg);
           background-size: 24px;
           background-position: left;
           background-repeat: no-repeat;
-        }
-        &.icon-nav{
+    }
+    &.icon-nav{
           background: url(../icon/navigation.svg);
           background-size: 24px;
           background-position: left;
           background-repeat: no-repeat;
-        }
-        &.icon-sett{
+    }
+    &.icon-sett{
           background: url(../icon/settings.svg);
           background-size: 24px;
           background-position: left;
           background-repeat: no-repeat;
-        }
-      }
     }
+    
     
   }
   .glyphicon.glyphicon-align-justify {
