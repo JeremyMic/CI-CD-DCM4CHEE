@@ -98,29 +98,10 @@ ul.nav#mainmenu {
     div {
       display: flex;
       width: 100%;
-      // &.icon-moni {
-      //   background: url(../icon/monitor.svg);
-      //   background-size: 24px;
-      //   background-position: left;
-      //   background-repeat: no-repeat;
-      // }
-      // &.icon-nav {
-      //   background: url(../icon/navigation.svg);
-      //   background-size: 24px;
-      //   background-position: left;
-      //   background-repeat: no-repeat;
-      // }
-      // &.icon-sett {
-      //   background: url(../icon/settings.svg);
-      //   background-size: 24px;
-      //   background-position: left;
-      //   background-repeat: no-repeat;
-      // }
     }
     a {
       background: transparent;
       color: #4B465C;
-      border-bottom: 1px solid #dcdcdc;
       height: 50px;
       display: flex;
       align-items: center;
@@ -131,45 +112,24 @@ ul.nav#mainmenu {
       background: transparent;
       font-weight: bold;
     }
-    a:active {
-      outline: none;
-    }
     a.active {
+      outline: none;
       font-weight: bold;
     }
 
-    // &.icon-moni {
-    //   background: url(../icon/monitor.svg);
-    //   background-size: 24px;
-    //   background-position: left;
-    //   background-repeat: no-repeat;
-    // }
-    // &.icon-nav {
-    //   background: url(../icon/navigation.svg);
-    //   background-size: 24px;
-    //   background-position: left;
-    //   background-repeat: no-repeat;
-    // }
-    // &.icon-sett {
-    //   background: url(../icon/settings.svg);
-    //   background-size: 24px;
-    //   background-position: left;
-    //   background-repeat: no-repeat;
-    // }
-
-    img.icon-moni {
+    div.icon-moni {
       background: url(../icon/monitor.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
-    img.icon-nav {
+    div.icon-nav {
       background: url(../icon/navigation.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
-    img.icon-sett {
+    div.icon-sett {
       background: url(../icon/settings.png);
       background-size: 24px;
       background-position: left;
@@ -177,28 +137,9 @@ ul.nav#mainmenu {
     }
   }
   li.active {
-    background: #29659b;
     div {
       display: flex;
       width: 100%;
-      // &.icon-moni {
-      //   background: url(../icon/monitor.svg);
-      //   background-size: 24px;
-      //   background-position: left;
-      //   background-repeat: no-repeat;
-      // }
-      // &.icon-nav {
-      //   background: url(../icon/navigation.svg);
-      //   background-size: 24px;
-      //   background-position: left;
-      //   background-repeat: no-repeat;
-      // }
-      // &.icon-sett {
-      //   background: url(../icon/settings.svg);
-      //   background-size: 24px;
-      //   background-position: left;
-      //   background-repeat: no-repeat;
-      // }
     }
     a {
       background: transparent;
@@ -214,38 +155,19 @@ ul.nav#mainmenu {
       background: transparent;
     }
 
-    // &.icon-moni {
-    //   background: url(../icon/monitor.svg);
-    //   background-size: 24px;
-    //   background-position: left;
-    //   background-repeat: no-repeat;
-    // }
-    // &.icon-nav {
-    //   background: url(../icon/navigation.svg);
-    //   background-size: 24px;
-    //   background-position: left;
-    //   background-repeat: no-repeat;
-    // }
-    // &.icon-sett {
-    //   background: url(../icon/settings.svg);
-    //   background-size: 24px;
-    //   background-position: left;
-    //   background-repeat: no-repeat;
-    // }
-
-    img.icon-moni {
+    div.icon-moni {
       background: url(../icon/monitor.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
-    img.icon-nav {
+    div.icon-nav {
       background: url(../icon/navigation.png);
       background-size: 24px;
       background-position: left;
       background-repeat: no-repeat;
     }
-    img.icon-sett {
+    div.icon-sett {
       background: url(../icon/settings.png);
       background-size: 24px;
       background-position: left;
